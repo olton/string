@@ -1,6 +1,6 @@
 import {REGEXP_EXTENDED_ASCII, REGEXP_LATIN_WORD, REGEXP_WORD} from "../helpers/regexp/regexp";
 import {capitalize} from "./capitalize";
-import lower from "./lower_case";
+import {lower} from "./lower_case";
 import {toStr} from "../helpers/string/to_string";
 
 export const title = (s, noSplit, sep = "") => {

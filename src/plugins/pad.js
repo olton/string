@@ -25,11 +25,11 @@ const _pad = (s, pad = "", len = 0, left = false) => {
     return left ? pads + _s : _s + pads
 }
 
-export const lpad = (s, len, pad = ' ') => {
+export const lpad = (s, pad = ' ', len = 0) => {
     return _pad(s, len, pad, true)
 }
 
-export const rpad = (s, len, pad = ' ') => {
+export const rpad = (s, pad = ' ', len = 0) => {
     return _pad(s, len, pad, false)
 }
 

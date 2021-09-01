@@ -42,10 +42,14 @@ import {stripTags, stripTagsAll} from "../plugins/strip_tags"
 import {sprintf, vsprintf} from "../plugins/sprintf"
 import {includes} from "../plugins/includes"
 import {split} from "../plugins/split"
-import {stripe} from "../plugins/stripe"
+import {strip} from "../plugins/strip"
 import {wrap, wrapTag} from "../plugins/wrap"
 import {words} from "../plugins/words"
 import {isString} from "../plugins/is_string"
+import {matches} from "../plugins/matches"
+import {append} from "../plugins/append"
+import {prepend} from "../plugins/prepend"
+import {stripBoom} from "../plugins/strip_bom"
 
 export default {
     camelCase,
@@ -103,7 +107,11 @@ export default {
     vsprintf,
     includes,
     split,
-    stripe,
-    isString
+    strip,
+    isString,
+    matches,
+    append,
+    prepend,
+    stripBoom
 }
 
