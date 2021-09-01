@@ -1,5 +1,3 @@
 import {toStr} from "../helpers/string/to_string";
 
-export default function lower(s){
-    return toStr(s).toLowerCase()
-}
+export const lower = s => toStr(s).toLowerCase()

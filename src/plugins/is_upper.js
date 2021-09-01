@@ -1,7 +1,3 @@
-import {toStr} from "../helpers/string/to_string";
+import {upper} from "./upper_case";
 
-export default function isUpper(s){
-    let _s = toStr(s)
-
-    return _s.toUpperCase() === _s
-}
+export const isUpper = s => upper(s) === s

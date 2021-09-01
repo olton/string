@@ -1,3 +1,1 @@
-export default function isString(s){
-    return typeof s === "string"
-}
+export const isString = s => typeof s === "string"
