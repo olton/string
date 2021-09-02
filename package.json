@@ -2,7 +2,8 @@
   "name": "@olton/datetime",
   "version": "1.0.0",
   "description": "Datetime is a minimalist JavaScript library that parses, validates, manipulates, and displays dates and times for node and modern browsers with a comfortable modern API.",
-  "main": "src/index.js",
+  "main": "dist/string.cjs.js",
+  "module": "dist/string.esm.js",
   "type": "module",
   "scripts": {
     "prebuild": "shx rm -rf dist/* lib/*",
