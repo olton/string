@@ -7,14 +7,14 @@ export default [
         input: 'src/browser.js',
         output: [
             {
-                file: 'lib/datetime.js',
+                file: 'lib/string.js',
                 format: 'iife',
                 name: "",
                 plugins: [
                 ]
             },
             {
-                file: 'lib/datetime.min.js',
+                file: 'lib/string.min.js',
                 format: 'iife',
                 name: "",
                 plugins: [
@@ -27,7 +27,7 @@ export default [
         input: 'src/index.js',
         output: [
             {
-                file: 'dist/datetime.js',
+                file: 'dist/string.js',
                 format: 'esm',
             }
         ],
