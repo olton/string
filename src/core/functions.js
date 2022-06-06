@@ -50,6 +50,7 @@ import {matches} from "../plugins/matches"
 import {append} from "../plugins/append"
 import {prepend} from "../plugins/prepend"
 import {stripBoom} from "../plugins/strip_bom"
+import {shorten} from "../plugins/shorten.js"
 
 export default {
     camelCase,
@@ -112,6 +113,7 @@ export default {
     matches,
     append,
     prepend,
-    stripBoom
+    stripBoom,
+    shorten
 }
 

@@ -1,56 +1,4 @@
 import f from "./functions"
-import {countChars, countUniqueChars} from "../plugins/count_chars";
-import {decapitalize} from "../plugins/decapitalize";
-import {escapeHtml} from "../plugins/escape_html";
-import {unescapeHtml} from "../plugins/unescape_html";
-import {camelCase} from "../plugins/camel_case";
-import {capitalize} from "../plugins/capitalize";
-import {chars} from "../plugins/chars";
-import {count} from "../plugins/count";
-import {countSubstr} from "../plugins/count_substrings";
-import {countUniqueWords, countWords} from "../plugins/count_words";
-import {dashedName} from "../plugins/dashed_name";
-import {kebab} from "../plugins/kebab_case";
-import {lower} from "../plugins/lower_case";
-import {reverse} from "../plugins/reverse";
-import {shuffle} from "../plugins/shuffle";
-import {snake} from "../plugins/snake_case";
-import {swap} from "../plugins/swap";
-import {title} from "../plugins/title_case";
-import {upper} from "../plugins/upper_case";
-import {words} from "../plugins/words";
-import {wrap, wrapTag} from "../plugins/wrap";
-import {unique} from "../plugins/unique";
-import {uniqueWords} from "../plugins/uniqueWords";
-import {substr} from "../plugins/substr";
-import {first} from "../plugins/first";
-import {last} from "../plugins/last";
-import {truncate} from "../plugins/truncate";
-import {slice} from "../plugins/slice";
-import {prune} from "../plugins/prune";
-import {repeat} from "../plugins/repeat";
-import {lpad, pad, rpad} from "../plugins/pad";
-import {insert} from "../plugins/insert";
-import {ltrim, rtrim, trim} from "../plugins/trim";
-import {endsWith} from "../plugins/ends_with";
-import {isAlpha} from "../plugins/is_alpha";
-import {isAlphaDigit} from "../plugins/is_alpha_digit";
-import {isDigit} from "../plugins/is_digit";
-import {isBlank} from "../plugins/is_blank";
-import {isEmpty} from "../plugins/is_empty";
-import {isLower} from "../plugins/is_lower";
-import {isUpper} from "../plugins/is_upper";
-import {startWith} from "../plugins/start_with";
-import {stripTags, stripTagsAll} from "../plugins/strip_tags";
-import {sprintf, vsprintf} from "../plugins/sprintf";
-import {includes} from "../plugins/includes";
-import {split} from "../plugins/split";
-import {strip} from "../plugins/strip";
-import {isString} from "../plugins/is_string";
-import {matches} from "../plugins/matches";
-import {append} from "../plugins/append";
-import {prepend} from "../plugins/prepend";
-import {stripBoom} from "../plugins/strip_bom";
 
 class Str {
     constructor(v, mutable = true) {
@@ -338,6 +286,10 @@ class Str {
 
     wrapTag(tag){
         return this._result(f.wrapTag(this.value, tag))
+    }
+
+    shorten(l, d){
+        return this._result(f.shorten(this.value, l, d))
     }
 }
 

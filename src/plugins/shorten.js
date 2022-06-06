@@ -1,0 +1,1 @@
+export const shorten = (v, l = 5, d = '...') => !v ? v : `${v.substring(0, l)}${d}${v.substring(v.length - l)}`
