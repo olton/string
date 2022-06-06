@@ -7,14 +7,14 @@ export default [
         input: 'src/browser.js',
         output: [
             {
-                file: 'lib/string.js',
+                file: 'lib/datetime.js',
                 format: 'iife',
                 name: "",
                 plugins: [
                 ]
             },
             {
-                file: 'lib/string.min.js',
+                file: 'lib/datetime.min.js',
                 format: 'iife',
                 name: "",
                 plugins: [
@@ -27,17 +27,13 @@ export default [
         input: 'src/index.js',
         output: [
             {
-                file: 'dist/string.cjs.js',
-                format: 'cjs',
-            },
-            {
-                file: 'dist/string.esm.js',
-                format: 'es'
-            },
+                file: 'dist/datetime.js',
+                format: 'esm',
+            }
         ],
         plugins: [
             commonjs(),
             babel({ babelHelpers: 'bundled' })
         ]
-    },
+    }
 ]
