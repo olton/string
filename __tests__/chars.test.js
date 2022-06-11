@@ -19,11 +19,11 @@ describe("Test chars function", () => {
     })
 
     it("Class test", () => {
-        expect(str("abc").chars().val).toEqual(["a", "b", "c"])
+        expect(str("abc").chars().val()).toEqual(["a", "b", "c"])
     })
 
     it("Class test ignore", () => {
-        expect(str("abc").chars("b").val).toEqual(["a", "c"])
+        expect(str("abc").chars("b").val()).toEqual(["a", "c"])
     })
 })
 

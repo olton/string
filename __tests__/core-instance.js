@@ -1,5 +1,5 @@
 import assert from "assert";
-import {Str} from "../dist/string.esm";
+import {Str} from "../src/index.js";
 
 describe('Test creating instance of Str()', () => {
     it ('Should return a instance of Str ', () => {

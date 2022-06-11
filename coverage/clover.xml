@@ -1,656 +1,220 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<coverage generated="1630565989805" clover="3.2.0">
-  <project timestamp="1630565989805" name="All files">
-    <metrics statements="429" coveredstatements="105" conditionals="270" coveredconditionals="6" methods="156" coveredmethods="3" elements="855" coveredelements="114" complexity="0" loc="429" ncloc="429" packages="1" files="1" classes="1"/>
-    <file name="string.esm.js" path="P:\Projects\String\dist\string.esm.js">
-      <metrics statements="429" coveredstatements="105" conditionals="270" coveredconditionals="6" methods="156" coveredmethods="3"/>
-      <line num="4" count="1" type="stmt"/>
-      <line num="9" count="1" type="stmt"/>
-      <line num="14" count="1" type="stmt"/>
-      <line num="19" count="1" type="stmt"/>
-      <line num="24" count="1" type="stmt"/>
-      <line num="29" count="1" type="stmt"/>
-      <line num="34" count="1" type="stmt"/>
-      <line num="39" count="1" type="stmt"/>
-      <line num="45" count="1" type="stmt"/>
-      <line num="50" count="1" type="stmt"/>
-      <line num="55" count="1" type="stmt"/>
-      <line num="60" count="1" type="stmt"/>
-      <line num="61" count="1" type="stmt"/>
-      <line num="66" count="1" type="stmt"/>
-      <line num="75" count="1" type="stmt"/>
-      <line num="80" count="1" type="stmt"/>
-      <line num="85" count="1" type="stmt"/>
-      <line num="90" count="1" type="stmt"/>
-      <line num="92" count="1" type="cond" truecount="0" falsecount="1"/>
-      <line num="93" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="94" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="95" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="96" count="0" type="stmt"/>
-      <line num="99" count="1" type="stmt"/>
-      <line num="100" count="0" type="cond" truecount="0" falsecount="4"/>
-      <line num="107" count="1" type="stmt"/>
-      <line num="110" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="111" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="112" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="113" count="0" type="stmt"/>
-      <line num="115" count="0" type="stmt"/>
-      <line num="118" count="0" type="stmt"/>
-      <line num="121" count="1" type="cond" truecount="0" falsecount="1"/>
-      <line num="122" count="0" type="stmt"/>
-      <line num="124" count="0" type="stmt"/>
-      <line num="126" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="129" count="1" type="stmt"/>
-      <line num="130" count="0" type="stmt"/>
-      <line num="131" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="135" count="1" type="stmt"/>
-      <line num="137" count="1" type="stmt"/>
-      <line num="138" count="0" type="stmt"/>
-      <line num="140" count="0" type="stmt"/>
-      <line num="143" count="1" type="cond" truecount="0" falsecount="1"/>
-      <line num="145" count="1" type="stmt"/>
-      <line num="151" count="1" type="cond" truecount="0" falsecount="1"/>
-      <line num="153" count="1" type="stmt"/>
-      <line num="155" count="1" type="cond" truecount="0" falsecount="1"/>
-      <line num="156" count="0" type="stmt"/>
-      <line num="157" count="0" type="stmt"/>
-      <line num="161" count="0" type="stmt"/>
-      <line num="162" count="0" type="stmt"/>
-      <line num="163" count="0" type="stmt"/>
-      <line num="164" count="0" type="stmt"/>
-      <line num="165" count="0" type="stmt"/>
-      <line num="166" count="0" type="stmt"/>
-      <line num="169" count="0" type="stmt"/>
-      <line num="172" count="1" type="stmt"/>
-      <line num="174" count="1" type="stmt"/>
-      <line num="176" count="1" type="stmt"/>
-      <line num="177" count="0" type="stmt"/>
-      <line num="178" count="0" type="stmt"/>
-      <line num="179" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="182" count="1" type="stmt"/>
-      <line num="184" count="1" type="cond" truecount="0" falsecount="1"/>
-      <line num="185" count="0" type="stmt"/>
-      <line num="187" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="188" count="0" type="cond" truecount="0" falsecount="4"/>
-      <line num="189" count="0" type="stmt"/>
-      <line num="190" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="191" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="195" count="1" type="stmt"/>
-      <line num="201" count="1" type="stmt"/>
-      <line num="203" count="1" type="cond" truecount="0" falsecount="1"/>
-      <line num="204" count="0" type="stmt"/>
-      <line num="206" count="0" type="stmt"/>
-      <line num="207" count="0" type="stmt"/>
-      <line num="208" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="212" count="0" type="stmt"/>
-      <line num="215" count="1" type="stmt"/>
-      <line num="216" count="1" type="stmt"/>
-      <line num="218" count="1" type="cond" truecount="0" falsecount="1"/>
-      <line num="219" count="0" type="stmt"/>
-      <line num="221" count="0" type="stmt"/>
-      <line num="223" count="0" type="cond" truecount="0" falsecount="4"/>
-      <line num="226" count="1" type="stmt"/>
-      <line num="227" count="1" type="stmt"/>
-      <line num="229" count="1" type="stmt"/>
-      <line num="239" count="0" type="stmt"/>
-      <line num="242" count="1" type="stmt"/>
-      <line num="244" count="1" type="stmt"/>
-      <line num="252" count="1" type="stmt"/>
-      <line num="255" count="0" type="stmt"/>
-      <line num="258" count="1" type="stmt"/>
-      <line num="260" count="1" type="stmt"/>
-      <line num="262" count="1" type="stmt"/>
-      <line num="268" count="1" type="stmt"/>
-      <line num="274" count="1" type="cond" truecount="0" falsecount="1"/>
-      <line num="280" count="1" type="cond" truecount="0" falsecount="1"/>
-      <line num="281" count="0" type="stmt"/>
-      <line num="283" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="286" count="1" type="stmt"/>
-      <line num="287" count="1" type="stmt"/>
-      <line num="289" count="1" type="cond" truecount="0" falsecount="1"/>
-      <line num="290" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="291" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="292" count="0" type="stmt"/>
-      <line num="295" count="1" type="stmt"/>
-      <line num="296" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="297" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="298" count="0" type="stmt"/>
-      <line num="305" count="1" type="cond" truecount="0" falsecount="2"/>
-      <line num="306" count="0" type="stmt"/>
-      <line num="308" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="310" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="317" count="1" type="cond" truecount="0" falsecount="1"/>
-      <line num="318" count="0" type="stmt"/>
-      <line num="320" count="0" type="stmt"/>
-      <line num="321" count="0" type="stmt"/>
-      <line num="323" count="0" type="stmt"/>
-      <line num="324" count="0" type="stmt"/>
-      <line num="327" count="0" type="stmt"/>
-      <line num="334" count="1" type="cond" truecount="0" falsecount="2"/>
-      <line num="335" count="0" type="stmt"/>
-      <line num="337" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="339" count="0" type="stmt"/>
-      <line num="340" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="342" count="0" type="stmt"/>
-      <line num="343" count="0" type="stmt"/>
-      <line num="345" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="346" count="0" type="stmt"/>
-      <line num="350" count="0" type="stmt"/>
-      <line num="353" count="1" type="cond" truecount="0" falsecount="1"/>
-      <line num="354" count="0" type="stmt"/>
-      <line num="356" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="358" count="0" type="stmt"/>
-      <line num="360" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="361" count="0" type="stmt"/>
-      <line num="364" count="0" type="stmt"/>
-      <line num="365" count="0" type="stmt"/>
-      <line num="368" count="0" type="stmt"/>
-      <line num="371" count="1" type="cond" truecount="0" falsecount="1"/>
-      <line num="372" count="0" type="stmt"/>
-      <line num="373" count="0" type="stmt"/>
-      <line num="374" count="0" type="stmt"/>
-      <line num="377" count="1" type="cond" truecount="0" falsecount="3"/>
-      <line num="378" count="0" type="stmt"/>
-      <line num="380" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="382" count="0" type="stmt"/>
-      <line num="384" count="0" type="stmt"/>
-      <line num="386" count="0" type="stmt"/>
-      <line num="388" count="0" type="cond" truecount="0" falsecount="4"/>
-      <line num="389" count="0" type="stmt"/>
-      <line num="392" count="0" type="stmt"/>
-      <line num="393" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="396" count="1" type="cond" truecount="0" falsecount="2"/>
-      <line num="397" count="0" type="stmt"/>
-      <line num="399" count="1" type="cond" truecount="0" falsecount="2"/>
-      <line num="400" count="0" type="stmt"/>
-      <line num="402" count="1" type="cond" truecount="0" falsecount="2"/>
-      <line num="403" count="0" type="stmt"/>
-      <line num="405" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="407" count="0" type="stmt"/>
-      <line num="409" count="0" type="stmt"/>
-      <line num="411" count="0" type="stmt"/>
-      <line num="414" count="0" type="stmt"/>
-      <line num="417" count="0" type="cond" truecount="0" falsecount="4"/>
-      <line num="418" count="0" type="stmt"/>
-      <line num="421" count="0" type="stmt"/>
-      <line num="424" count="1" type="cond" truecount="0" falsecount="2"/>
-      <line num="425" count="0" type="stmt"/>
-      <line num="427" count="0" type="stmt"/>
-      <line num="430" count="1" type="stmt"/>
-      <line num="431" count="1" type="stmt"/>
-      <line num="432" count="1" type="stmt"/>
-      <line num="433" count="1" type="stmt"/>
-      <line num="434" count="0" type="stmt"/>
-      <line num="436" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="437" count="0" type="stmt"/>
-      <line num="440" count="0" type="cond" truecount="0" falsecount="4"/>
-      <line num="441" count="0" type="stmt"/>
-      <line num="444" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="445" count="0" type="stmt"/>
-      <line num="448" count="0" type="stmt"/>
-      <line num="449" count="0" type="stmt"/>
-      <line num="450" count="0" type="cond" truecount="0" falsecount="4"/>
-      <line num="451" count="0" type="stmt"/>
-      <line num="454" count="0" type="stmt"/>
-      <line num="455" count="0" type="stmt"/>
-      <line num="458" count="1" type="stmt"/>
-      <line num="459" count="0" type="stmt"/>
-      <line num="461" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="462" count="0" type="stmt"/>
-      <line num="465" count="0" type="cond" truecount="0" falsecount="4"/>
-      <line num="466" count="0" type="stmt"/>
-      <line num="469" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="470" count="0" type="stmt"/>
-      <line num="473" count="0" type="stmt"/>
-      <line num="474" count="0" type="stmt"/>
-      <line num="475" count="0" type="cond" truecount="0" falsecount="4"/>
-      <line num="476" count="0" type="stmt"/>
-      <line num="479" count="0" type="stmt"/>
-      <line num="480" count="0" type="stmt"/>
-      <line num="484" count="1" type="stmt"/>
-      <line num="486" count="1" type="stmt"/>
-      <line num="488" count="1" type="stmt"/>
-      <line num="490" count="1" type="stmt"/>
-      <line num="492" count="1" type="cond" truecount="0" falsecount="3"/>
-      <line num="494" count="1" type="stmt"/>
-      <line num="496" count="1" type="stmt"/>
-      <line num="498" count="1" type="stmt"/>
-      <line num="500" count="1" type="stmt"/>
-      <line num="502" count="1" type="stmt"/>
-      <line num="503" count="1" type="cond" truecount="0" falsecount="1"/>
-      <line num="504" count="0" type="stmt"/>
-      <line num="506" count="0" type="stmt"/>
-      <line num="507" count="0" type="stmt"/>
-      <line num="508" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="518" count="1" type="stmt"/>
-      <line num="537" count="0" type="stmt"/>
-      <line num="538" count="0" type="stmt"/>
-      <line num="540" count="0" type="stmt"/>
-      <line num="548" count="0" type="stmt"/>
-      <line num="549" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="550" count="0" type="stmt"/>
-      <line num="551" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="552" count="0" type="stmt"/>
-      <line num="554" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="556" count="0" type="stmt"/>
-      <line num="558" count="0" type="stmt"/>
-      <line num="559" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="560" count="0" type="stmt"/>
-      <line num="563" count="0" type="stmt"/>
-      <line num="565" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="567" count="0" type="stmt"/>
-      <line num="570" count="0" type="stmt"/>
-      <line num="573" count="0" type="cond" truecount="0" falsecount="5"/>
-      <line num="574" count="0" type="stmt"/>
-      <line num="577" count="0" type="cond" truecount="0" falsecount="5"/>
-      <line num="578" count="0" type="stmt"/>
-      <line num="581" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="582" count="0" type="stmt"/>
-      <line num="585" count="0" type="cond" truecount="0" falsecount="16"/>
-      <line num="587" count="0" type="stmt"/>
-      <line num="588" count="0" type="stmt"/>
-      <line num="591" count="0" type="stmt"/>
-      <line num="592" count="0" type="stmt"/>
-      <line num="596" count="0" type="stmt"/>
-      <line num="597" count="0" type="stmt"/>
-      <line num="600" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="601" count="0" type="stmt"/>
-      <line num="604" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="605" count="0" type="stmt"/>
-      <line num="608" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="609" count="0" type="stmt"/>
-      <line num="612" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="613" count="0" type="stmt"/>
-      <line num="616" count="0" type="stmt"/>
-      <line num="617" count="0" type="stmt"/>
-      <line num="620" count="0" type="stmt"/>
-      <line num="621" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="622" count="0" type="stmt"/>
-      <line num="625" count="0" type="stmt"/>
-      <line num="626" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="627" count="0" type="stmt"/>
-      <line num="630" count="0" type="stmt"/>
-      <line num="631" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="632" count="0" type="stmt"/>
-      <line num="635" count="0" type="stmt"/>
-      <line num="636" count="0" type="stmt"/>
-      <line num="639" count="0" type="stmt"/>
-      <line num="640" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="641" count="0" type="stmt"/>
-      <line num="644" count="0" type="stmt"/>
-      <line num="645" count="0" type="stmt"/>
-      <line num="648" count="0" type="stmt"/>
-      <line num="649" count="0" type="stmt"/>
-      <line num="652" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="653" count="0" type="stmt"/>
-      <line num="655" count="0" type="cond" truecount="0" falsecount="5"/>
-      <line num="656" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="657" count="0" type="stmt"/>
-      <line num="659" count="0" type="stmt"/>
-      <line num="662" count="0" type="cond" truecount="0" falsecount="4"/>
-      <line num="663" count="0" type="stmt"/>
-      <line num="664" count="0" type="cond" truecount="0" falsecount="4"/>
-      <line num="665" count="0" type="cond" truecount="0" falsecount="4"/>
-      <line num="670" count="0" type="stmt"/>
-      <line num="673" count="1" type="stmt"/>
-      <line num="676" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="677" count="0" type="stmt"/>
-      <line num="680" count="0" type="stmt"/>
-      <line num="682" count="0" type="stmt"/>
-      <line num="683" count="0" type="stmt"/>
-      <line num="685" count="0" type="stmt"/>
-      <line num="686" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="687" count="0" type="stmt"/>
-      <line num="688" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="689" count="0" type="stmt"/>
-      <line num="690" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="691" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="692" count="0" type="stmt"/>
-      <line num="693" count="0" type="stmt"/>
-      <line num="694" count="0" type="stmt"/>
-      <line num="695" count="0" type="stmt"/>
-      <line num="697" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="698" count="0" type="stmt"/>
-      <line num="700" count="0" type="stmt"/>
-      <line num="701" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="702" count="0" type="stmt"/>
-      <line num="703" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="704" count="0" type="stmt"/>
-      <line num="706" count="0" type="stmt"/>
-      <line num="710" count="0" type="stmt"/>
-      <line num="713" count="0" type="stmt"/>
-      <line num="715" count="0" type="stmt"/>
-      <line num="718" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="719" count="0" type="stmt"/>
-      <line num="722" count="0" type="stmt"/>
-      <line num="734" count="0" type="stmt"/>
-      <line num="737" count="0" type="stmt"/>
-      <line num="740" count="0" type="stmt"/>
-      <line num="743" count="1" type="stmt"/>
-      <line num="744" count="1" type="cond" truecount="0" falsecount="2"/>
-      <line num="746" count="1" type="stmt"/>
-      <line num="748" count="1" type="cond" truecount="0" falsecount="3"/>
-      <line num="749" count="0" type="cond" truecount="0" falsecount="4"/>
-      <line num="752" count="1" type="cond" truecount="0" falsecount="2"/>
-      <line num="753" count="0" type="stmt"/>
-      <line num="756" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="757" count="0" type="stmt"/>
-      <line num="758" count="0" type="stmt"/>
-      <line num="761" count="1" type="cond" truecount="0" falsecount="1"/>
-      <line num="762" count="1" type="cond" truecount="0" falsecount="2"/>
-      <line num="764" count="1" type="stmt"/>
-      <line num="766" count="1" type="cond" truecount="0" falsecount="1"/>
-      <line num="767" count="0" type="stmt"/>
-      <line num="771" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="772" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="774" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="775" count="0" type="stmt"/>
-      <line num="778" count="0" type="stmt"/>
-      <line num="781" count="0" type="stmt"/>
-      <line num="784" count="1" type="cond" truecount="0" falsecount="2"/>
-      <line num="786" count="1" type="cond" truecount="0" falsecount="2"/>
-      <line num="788" count="1" type="stmt"/>
-      <line num="789" count="0" type="stmt"/>
-      <line num="791" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="792" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="795" count="1" type="stmt"/>
-      <line num="861" count="5" type="stmt"/>
-      <line num="862" count="5" type="stmt"/>
-      <line num="866" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="867" count="0" type="stmt"/>
-      <line num="870" count="0" type="stmt"/>
-      <line num="874" count="0" type="stmt"/>
-      <line num="878" count="5" type="cond" truecount="4" falsecount="0"/>
-      <line num="879" count="1" type="stmt"/>
-      <line num="880" count="1" type="stmt"/>
-      <line num="884" count="0" type="stmt"/>
-      <line num="888" count="0" type="stmt"/>
-      <line num="892" count="0" type="stmt"/>
-      <line num="896" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="897" count="0" type="stmt"/>
-      <line num="900" count="0" type="stmt"/>
-      <line num="901" count="0" type="stmt"/>
-      <line num="905" count="0" type="stmt"/>
-      <line num="909" count="0" type="stmt"/>
-      <line num="913" count="0" type="stmt"/>
-      <line num="917" count="0" type="stmt"/>
-      <line num="921" count="0" type="stmt"/>
-      <line num="925" count="0" type="stmt"/>
-      <line num="929" count="0" type="stmt"/>
-      <line num="933" count="0" type="stmt"/>
-      <line num="937" count="0" type="stmt"/>
-      <line num="941" count="0" type="stmt"/>
-      <line num="945" count="0" type="stmt"/>
-      <line num="949" count="0" type="stmt"/>
-      <line num="953" count="0" type="stmt"/>
-      <line num="957" count="0" type="stmt"/>
-      <line num="961" count="0" type="stmt"/>
-      <line num="965" count="0" type="stmt"/>
-      <line num="969" count="0" type="stmt"/>
-      <line num="973" count="0" type="stmt"/>
-      <line num="977" count="0" type="stmt"/>
-      <line num="981" count="0" type="stmt"/>
-      <line num="985" count="0" type="stmt"/>
-      <line num="989" count="0" type="stmt"/>
-      <line num="993" count="0" type="stmt"/>
-      <line num="997" count="0" type="stmt"/>
-      <line num="1001" count="0" type="stmt"/>
-      <line num="1005" count="0" type="stmt"/>
-      <line num="1009" count="0" type="stmt"/>
-      <line num="1013" count="0" type="stmt"/>
-      <line num="1017" count="0" type="stmt"/>
-      <line num="1021" count="0" type="stmt"/>
-      <line num="1025" count="0" type="stmt"/>
-      <line num="1029" count="0" type="stmt"/>
-      <line num="1033" count="0" type="stmt"/>
-      <line num="1037" count="0" type="stmt"/>
-      <line num="1041" count="0" type="stmt"/>
-      <line num="1045" count="0" type="stmt"/>
-      <line num="1049" count="0" type="stmt"/>
-      <line num="1053" count="0" type="stmt"/>
-      <line num="1057" count="0" type="stmt"/>
-      <line num="1061" count="0" type="stmt"/>
-      <line num="1065" count="0" type="stmt"/>
-      <line num="1069" count="0" type="stmt"/>
-      <line num="1073" count="0" type="stmt"/>
-      <line num="1077" count="0" type="stmt"/>
-      <line num="1081" count="0" type="stmt"/>
-      <line num="1085" count="0" type="stmt"/>
-      <line num="1089" count="0" type="stmt"/>
-      <line num="1093" count="0" type="stmt"/>
-      <line num="1097" count="0" type="stmt"/>
-      <line num="1101" count="0" type="stmt"/>
-      <line num="1105" count="0" type="stmt"/>
-      <line num="1109" count="0" type="stmt"/>
-      <line num="1113" count="0" type="stmt"/>
-      <line num="1117" count="0" type="stmt"/>
-      <line num="1121" count="0" type="stmt"/>
-      <line num="1125" count="0" type="stmt"/>
-      <line num="1129" count="0" type="stmt"/>
-      <line num="1133" count="0" type="stmt"/>
-      <line num="1137" count="0" type="stmt"/>
-      <line num="1141" count="0" type="stmt"/>
-      <line num="1145" count="0" type="stmt"/>
-      <line num="1150" count="1" type="stmt"/>
-      <line num="1152" count="5" type="stmt"/>
-    </file>
-=======
-<coverage generated="1654858272124" clover="3.2.0">
-  <project timestamp="1654858272124" name="All files">
-    <metrics statements="366" coveredstatements="89" conditionals="245" coveredconditionals="5" methods="153" coveredmethods="7" elements="764" coveredelements="101" complexity="0" loc="366" ncloc="366" packages="2" files="54" classes="54"/>
+<coverage generated="1654942108927" clover="3.2.0">
+  <project timestamp="1654942108927" name="All files">
+    <metrics statements="367" coveredstatements="104" conditionals="251" coveredconditionals="21" methods="152" coveredmethods="19" elements="770" coveredelements="144" complexity="0" loc="367" ncloc="367" packages="2" files="54" classes="54"/>
     <package name="core">
-      <metrics statements="79" coveredstatements="10" conditionals="6" coveredconditionals="3" methods="72" coveredmethods="5"/>
-      <file name="class.js" path="C:\Projects\String\src\core\class.js">
-        <metrics statements="79" coveredstatements="10" conditionals="6" coveredconditionals="3" methods="72" coveredmethods="5"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="10" count="1" type="cond" truecount="1" falsecount="1"/>
+      <metrics statements="80" coveredstatements="17" conditionals="12" coveredconditionals="9" methods="71" coveredmethods="10"/>
+      <file name="class.js" path="P:\Projects\String\src\core\class.js">
+        <metrics statements="80" coveredstatements="17" conditionals="12" coveredconditionals="9" methods="71" coveredmethods="10"/>
+        <line num="5" count="15" type="stmt"/>
+        <line num="6" count="15" type="stmt"/>
+        <line num="10" count="5" type="cond" truecount="1" falsecount="1"/>
         <line num="11" count="0" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
         <line num="17" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="40" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="41" count="0" type="stmt"/>
-        <line num="43" count="1" type="stmt"/>
-        <line num="44" count="1" type="stmt"/>
-        <line num="48" count="0" type="stmt"/>
-        <line num="52" count="0" type="stmt"/>
-        <line num="56" count="0" type="stmt"/>
-        <line num="60" count="0" type="stmt"/>
-        <line num="64" count="0" type="stmt"/>
-        <line num="68" count="0" type="stmt"/>
-        <line num="72" count="0" type="stmt"/>
-        <line num="76" count="0" type="stmt"/>
-        <line num="80" count="0" type="stmt"/>
-        <line num="84" count="0" type="stmt"/>
-        <line num="88" count="0" type="stmt"/>
-        <line num="92" count="0" type="stmt"/>
-        <line num="96" count="0" type="stmt"/>
-        <line num="100" count="0" type="stmt"/>
-        <line num="104" count="0" type="stmt"/>
-        <line num="108" count="0" type="stmt"/>
-        <line num="112" count="0" type="stmt"/>
-        <line num="116" count="0" type="stmt"/>
-        <line num="120" count="0" type="stmt"/>
-        <line num="124" count="0" type="stmt"/>
-        <line num="128" count="0" type="stmt"/>
-        <line num="132" count="0" type="stmt"/>
-        <line num="136" count="0" type="stmt"/>
-        <line num="140" count="0" type="stmt"/>
-        <line num="144" count="0" type="stmt"/>
-        <line num="148" count="0" type="stmt"/>
-        <line num="152" count="0" type="stmt"/>
-        <line num="156" count="0" type="stmt"/>
-        <line num="160" count="0" type="stmt"/>
-        <line num="164" count="0" type="stmt"/>
-        <line num="168" count="0" type="stmt"/>
-        <line num="172" count="0" type="stmt"/>
-        <line num="176" count="0" type="stmt"/>
-        <line num="180" count="1" type="stmt"/>
-        <line num="184" count="0" type="stmt"/>
-        <line num="188" count="0" type="stmt"/>
-        <line num="192" count="0" type="stmt"/>
-        <line num="196" count="0" type="stmt"/>
-        <line num="200" count="0" type="stmt"/>
-        <line num="204" count="0" type="stmt"/>
-        <line num="208" count="0" type="stmt"/>
-        <line num="212" count="0" type="stmt"/>
-        <line num="216" count="0" type="stmt"/>
-        <line num="220" count="0" type="stmt"/>
-        <line num="224" count="0" type="stmt"/>
-        <line num="228" count="0" type="stmt"/>
-        <line num="232" count="0" type="stmt"/>
-        <line num="236" count="0" type="stmt"/>
-        <line num="240" count="0" type="stmt"/>
-        <line num="244" count="0" type="stmt"/>
-        <line num="248" count="0" type="stmt"/>
-        <line num="252" count="0" type="stmt"/>
-        <line num="256" count="0" type="stmt"/>
-        <line num="260" count="0" type="stmt"/>
-        <line num="264" count="0" type="stmt"/>
-        <line num="268" count="0" type="stmt"/>
-        <line num="272" count="0" type="stmt"/>
-        <line num="276" count="0" type="stmt"/>
-        <line num="280" count="0" type="stmt"/>
-        <line num="284" count="0" type="stmt"/>
-        <line num="288" count="0" type="stmt"/>
-        <line num="292" count="0" type="stmt"/>
-        <line num="296" count="1" type="stmt"/>
-        <line num="298" count="1" type="stmt"/>
+        <line num="20" count="10" type="cond" truecount="4" falsecount="0"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="38" count="7" type="cond" truecount="1" falsecount="1"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="41" count="7" type="stmt"/>
+        <line num="42" count="7" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="90" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="106" count="0" type="stmt"/>
+        <line num="110" count="0" type="stmt"/>
+        <line num="114" count="0" type="stmt"/>
+        <line num="118" count="0" type="stmt"/>
+        <line num="122" count="0" type="stmt"/>
+        <line num="126" count="0" type="stmt"/>
+        <line num="130" count="0" type="stmt"/>
+        <line num="134" count="0" type="stmt"/>
+        <line num="138" count="0" type="stmt"/>
+        <line num="142" count="0" type="stmt"/>
+        <line num="146" count="0" type="stmt"/>
+        <line num="150" count="0" type="stmt"/>
+        <line num="154" count="0" type="stmt"/>
+        <line num="158" count="0" type="stmt"/>
+        <line num="162" count="0" type="stmt"/>
+        <line num="166" count="0" type="stmt"/>
+        <line num="170" count="0" type="stmt"/>
+        <line num="174" count="0" type="stmt"/>
+        <line num="178" count="1" type="stmt"/>
+        <line num="182" count="0" type="stmt"/>
+        <line num="186" count="0" type="stmt"/>
+        <line num="190" count="0" type="stmt"/>
+        <line num="194" count="0" type="stmt"/>
+        <line num="198" count="0" type="stmt"/>
+        <line num="202" count="0" type="stmt"/>
+        <line num="206" count="0" type="stmt"/>
+        <line num="210" count="0" type="stmt"/>
+        <line num="214" count="0" type="stmt"/>
+        <line num="218" count="0" type="stmt"/>
+        <line num="222" count="0" type="stmt"/>
+        <line num="226" count="0" type="stmt"/>
+        <line num="230" count="0" type="stmt"/>
+        <line num="234" count="0" type="stmt"/>
+        <line num="238" count="0" type="stmt"/>
+        <line num="242" count="0" type="stmt"/>
+        <line num="246" count="0" type="stmt"/>
+        <line num="250" count="0" type="stmt"/>
+        <line num="254" count="0" type="stmt"/>
+        <line num="258" count="0" type="stmt"/>
+        <line num="262" count="0" type="stmt"/>
+        <line num="266" count="0" type="stmt"/>
+        <line num="270" count="0" type="stmt"/>
+        <line num="274" count="0" type="stmt"/>
+        <line num="278" count="0" type="stmt"/>
+        <line num="282" count="0" type="stmt"/>
+        <line num="286" count="0" type="stmt"/>
+        <line num="290" count="1" type="stmt"/>
+        <line num="294" count="7" type="stmt"/>
+        <line num="296" count="12" type="stmt"/>
       </file>
     </package>
     <package name="plugins">
-      <metrics statements="287" coveredstatements="79" conditionals="239" coveredconditionals="2" methods="81" coveredmethods="2"/>
-      <file name="append.js" path="C:\Projects\String\src\plugins\append.js">
+      <metrics statements="287" coveredstatements="87" conditionals="239" coveredconditionals="12" methods="81" coveredmethods="9"/>
+      <file name="append.js" path="P:\Projects\String\src\plugins\append.js">
         <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="3" type="cond" truecount="0" falsecount="2"/>
+        <line num="4" count="7" type="cond" truecount="0" falsecount="2"/>
       </file>
-      <file name="camel_case.js" path="C:\Projects\String\src\plugins\camel_case.js">
-        <metrics statements="3" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
+      <file name="camel_case.js" path="P:\Projects\String\src\plugins\camel_case.js">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="6" type="cond" truecount="2" falsecount="0"/>
       </file>
-      <file name="capitalize.js" path="C:\Projects\String\src\plugins\capitalize.js">
-        <metrics statements="4" coveredstatements="1" conditionals="3" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="6" count="0" type="cond" truecount="0" falsecount="2"/>
+      <file name="capitalize.js" path="P:\Projects\String\src\plugins\capitalize.js">
+        <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="3" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="9" type="stmt"/>
+        <line num="5" count="9" type="stmt"/>
+        <line num="6" count="9" type="cond" truecount="2" falsecount="0"/>
       </file>
-      <file name="chars.js" path="C:\Projects\String\src\plugins\chars.js">
-        <metrics statements="1" coveredstatements="1" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="6" count="1" type="cond" truecount="0" falsecount="1"/>
+      <file name="chars.js" path="P:\Projects\String\src\plugins\chars.js">
+        <metrics statements="1" coveredstatements="1" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="6" count="18" type="cond" truecount="1" falsecount="0"/>
       </file>
-      <file name="count.js" path="C:\Projects\String\src\plugins\count.js">
+      <file name="count.js" path="P:\Projects\String\src\plugins\count.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="6" count="1" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
       </file>
-      <file name="count_chars.js" path="C:\Projects\String\src\plugins\count_chars.js">
+      <file name="count_chars.js" path="P:\Projects\String\src\plugins\count_chars.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
       </file>
-      <file name="count_substrings.js" path="C:\Projects\String\src\plugins\count_substrings.js">
+      <file name="count_substrings.js" path="P:\Projects\String\src\plugins\count_substrings.js">
         <metrics statements="4" coveredstatements="1" conditionals="5" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="3" count="7" type="cond" truecount="0" falsecount="1"/>
         <line num="4" count="0" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
         <line num="6" count="0" type="cond" truecount="0" falsecount="4"/>
       </file>
-      <file name="count_words.js" path="C:\Projects\String\src\plugins\count_words.js">
+      <file name="count_words.js" path="P:\Projects\String\src\plugins\count_words.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
       </file>
-      <file name="dashed_name.js" path="C:\Projects\String\src\plugins\dashed_name.js">
+      <file name="dashed_name.js" path="P:\Projects\String\src\plugins\dashed_name.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
       </file>
-      <file name="decapitalize.js" path="C:\Projects\String\src\plugins\decapitalize.js">
+      <file name="decapitalize.js" path="P:\Projects\String\src\plugins\decapitalize.js">
         <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
       </file>
-      <file name="ends_with.js" path="C:\Projects\String\src\plugins\ends_with.js">
+      <file name="ends_with.js" path="P:\Projects\String\src\plugins\ends_with.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
       </file>
-      <file name="escape_html.js" path="C:\Projects\String\src\plugins\escape_html.js">
+      <file name="escape_html.js" path="P:\Projects\String\src\plugins\escape_html.js">
         <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
+        <line num="17" count="7" type="stmt"/>
       </file>
-      <file name="first.js" path="C:\Projects\String\src\plugins\first.js">
+      <file name="first.js" path="P:\Projects\String\src\plugins\first.js">
         <metrics statements="1" coveredstatements="1" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="7" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="7" count="7" type="cond" truecount="0" falsecount="1"/>
       </file>
-      <file name="includes.js" path="C:\Projects\String\src\plugins\includes.js">
+      <file name="includes.js" path="P:\Projects\String\src\plugins\includes.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
       </file>
-      <file name="insert.js" path="C:\Projects\String\src\plugins\insert.js">
+      <file name="insert.js" path="P:\Projects\String\src\plugins\insert.js">
         <metrics statements="3" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="1" type="cond" truecount="0" falsecount="2"/>
+        <line num="3" count="7" type="cond" truecount="0" falsecount="2"/>
         <line num="4" count="0" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
       </file>
-      <file name="is_alpha.js" path="C:\Projects\String\src\plugins\is_alpha.js">
+      <file name="is_alpha.js" path="P:\Projects\String\src\plugins\is_alpha.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
       </file>
-      <file name="is_alpha_digit.js" path="C:\Projects\String\src\plugins\is_alpha_digit.js">
+      <file name="is_alpha_digit.js" path="P:\Projects\String\src\plugins\is_alpha_digit.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
       </file>
-      <file name="is_blank.js" path="C:\Projects\String\src\plugins\is_blank.js">
+      <file name="is_blank.js" path="P:\Projects\String\src\plugins\is_blank.js">
         <metrics statements="1" coveredstatements="1" conditionals="3" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="4" count="1" type="cond" truecount="0" falsecount="3"/>
+        <line num="4" count="7" type="cond" truecount="0" falsecount="3"/>
       </file>
-      <file name="is_digit.js" path="C:\Projects\String\src\plugins\is_digit.js">
+      <file name="is_digit.js" path="P:\Projects\String\src\plugins\is_digit.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
       </file>
-      <file name="is_empty.js" path="C:\Projects\String\src\plugins\is_empty.js">
+      <file name="is_empty.js" path="P:\Projects\String\src\plugins\is_empty.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
       </file>
-      <file name="is_lower.js" path="C:\Projects\String\src\plugins\is_lower.js">
+      <file name="is_lower.js" path="P:\Projects\String\src\plugins\is_lower.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
       </file>
-      <file name="is_string.js" path="C:\Projects\String\src\plugins\is_string.js">
+      <file name="is_string.js" path="P:\Projects\String\src\plugins\is_string.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="7" type="stmt"/>
       </file>
-      <file name="is_upper.js" path="C:\Projects\String\src\plugins\is_upper.js">
+      <file name="is_upper.js" path="P:\Projects\String\src\plugins\is_upper.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
       </file>
-      <file name="kebab_case.js" path="C:\Projects\String\src\plugins\kebab_case.js">
+      <file name="kebab_case.js" path="P:\Projects\String\src\plugins\kebab_case.js">
         <metrics statements="1" coveredstatements="1" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="4" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="4" count="7" type="cond" truecount="0" falsecount="1"/>
       </file>
-      <file name="last.js" path="C:\Projects\String\src\plugins\last.js">
+      <file name="last.js" path="P:\Projects\String\src\plugins\last.js">
         <metrics statements="3" coveredstatements="1" conditionals="3" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="7" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="7" count="7" type="cond" truecount="0" falsecount="1"/>
         <line num="8" count="0" type="stmt"/>
         <line num="9" count="0" type="cond" truecount="0" falsecount="2"/>
       </file>
-      <file name="lower_case.js" path="C:\Projects\String\src\plugins\lower_case.js">
+      <file name="lower_case.js" path="P:\Projects\String\src\plugins\lower_case.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
       </file>
-      <file name="matches.js" path="C:\Projects\String\src\plugins\matches.js">
+      <file name="matches.js" path="P:\Projects\String\src\plugins\matches.js">
         <metrics statements="8" coveredstatements="1" conditionals="7" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="4" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="4" count="7" type="cond" truecount="0" falsecount="1"/>
         <line num="5" count="0" type="stmt"/>
         <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="9" count="0" type="cond" truecount="0" falsecount="2"/>
@@ -659,13 +223,13 @@
         <line num="13" count="0" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
       </file>
-      <file name="pad.js" path="C:\Projects\String\src\plugins\pad.js">
+      <file name="pad.js" path="P:\Projects\String\src\plugins\pad.js">
         <metrics statements="26" coveredstatements="5" conditionals="24" coveredconditionals="0" methods="5" coveredmethods="0"/>
-        <line num="7" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="7" count="7" type="cond" truecount="0" falsecount="1"/>
         <line num="8" count="0" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
-        <line num="14" count="1" type="cond" truecount="0" falsecount="3"/>
+        <line num="14" count="7" type="cond" truecount="0" falsecount="3"/>
         <line num="15" count="0" type="stmt"/>
         <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="17" count="0" type="stmt"/>
@@ -674,11 +238,11 @@
         <line num="21" count="0" type="cond" truecount="0" falsecount="4"/>
         <line num="23" count="0" type="stmt"/>
         <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="28" count="1" type="cond" truecount="0" falsecount="2"/>
+        <line num="28" count="7" type="cond" truecount="0" falsecount="2"/>
         <line num="29" count="0" type="stmt"/>
-        <line num="32" count="1" type="cond" truecount="0" falsecount="2"/>
+        <line num="32" count="7" type="cond" truecount="0" falsecount="2"/>
         <line num="33" count="0" type="stmt"/>
-        <line num="36" count="1" type="cond" truecount="0" falsecount="2"/>
+        <line num="36" count="7" type="cond" truecount="0" falsecount="2"/>
         <line num="37" count="0" type="stmt"/>
         <line num="38" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="39" count="0" type="stmt"/>
@@ -688,13 +252,13 @@
         <line num="44" count="0" type="cond" truecount="0" falsecount="4"/>
         <line num="46" count="0" type="stmt"/>
       </file>
-      <file name="prepend.js" path="C:\Projects\String\src\plugins\prepend.js">
+      <file name="prepend.js" path="P:\Projects\String\src\plugins\prepend.js">
         <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="4" count="1" type="cond" truecount="0" falsecount="2"/>
+        <line num="4" count="7" type="cond" truecount="0" falsecount="2"/>
       </file>
-      <file name="prune.js" path="C:\Projects\String\src\plugins\prune.js">
+      <file name="prune.js" path="P:\Projects\String\src\plugins\prune.js">
         <metrics statements="10" coveredstatements="1" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="10" count="1" type="cond" truecount="0" falsecount="2"/>
+        <line num="10" count="7" type="cond" truecount="0" falsecount="2"/>
         <line num="11" count="0" type="stmt"/>
         <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="13" count="0" type="stmt"/>
@@ -705,9 +269,9 @@
         <line num="19" count="0" type="stmt"/>
         <line num="23" count="0" type="stmt"/>
       </file>
-      <file name="repeat.js" path="C:\Projects\String\src\plugins\repeat.js">
+      <file name="repeat.js" path="P:\Projects\String\src\plugins\repeat.js">
         <metrics statements="9" coveredstatements="8" conditionals="5" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="6" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="6" count="7" type="cond" truecount="0" falsecount="1"/>
         <line num="7" count="3" type="stmt"/>
         <line num="8" count="3" type="cond" truecount="1" falsecount="1"/>
         <line num="9" count="3" type="stmt"/>
@@ -717,21 +281,21 @@
         <line num="16" count="12" type="stmt"/>
         <line num="19" count="3" type="stmt"/>
       </file>
-      <file name="reverse.js" path="C:\Projects\String\src\plugins\reverse.js">
+      <file name="reverse.js" path="P:\Projects\String\src\plugins\reverse.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
       </file>
-      <file name="shorten.js" path="C:\Projects\String\src\plugins\shorten.js">
-        <metrics statements="1" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="1" type="cond" truecount="0" falsecount="4"/>
+      <file name="shorten.js" path="P:\Projects\String\src\plugins\shorten.js">
+        <metrics statements="1" coveredstatements="1" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="7" type="cond" truecount="2" falsecount="2"/>
       </file>
-      <file name="shuffle.js" path="C:\Projects\String\src\plugins\shuffle.js">
+      <file name="shuffle.js" path="P:\Projects\String\src\plugins\shuffle.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
       </file>
-      <file name="slice.js" path="C:\Projects\String\src\plugins\slice.js">
+      <file name="slice.js" path="P:\Projects\String\src\plugins\slice.js">
         <metrics statements="7" coveredstatements="1" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="7" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="7" count="7" type="cond" truecount="0" falsecount="1"/>
         <line num="8" count="0" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
@@ -739,20 +303,20 @@
         <line num="13" count="0" type="stmt"/>
         <line num="18" count="0" type="stmt"/>
       </file>
-      <file name="snake_case.js" path="C:\Projects\String\src\plugins\snake_case.js">
+      <file name="snake_case.js" path="P:\Projects\String\src\plugins\snake_case.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
       </file>
-      <file name="split.js" path="C:\Projects\String\src\plugins\split.js">
+      <file name="split.js" path="P:\Projects\String\src\plugins\split.js">
         <metrics statements="4" coveredstatements="1" conditionals="7" coveredconditionals="0" methods="3" coveredmethods="0"/>
-        <line num="4" count="1" type="cond" truecount="0" falsecount="3"/>
+        <line num="4" count="7" type="cond" truecount="0" falsecount="3"/>
         <line num="5" count="0" type="stmt"/>
         <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
       </file>
-      <file name="sprintf.js" path="C:\Projects\String\src\plugins\sprintf.js">
+      <file name="sprintf.js" path="P:\Projects\String\src\plugins\sprintf.js">
         <metrics statements="100" coveredstatements="4" conditionals="95" coveredconditionals="0" methods="4" coveredmethods="0"/>
-        <line num="8" count="1" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
         <line num="27" count="0" type="stmt"/>
         <line num="29" count="0" type="stmt"/>
         <line num="30" count="0" type="cond" truecount="0" falsecount="2"/>
@@ -820,7 +384,7 @@
         <line num="128" count="0" type="cond" truecount="0" falsecount="4"/>
         <line num="129" count="0" type="cond" truecount="0" falsecount="4"/>
         <line num="133" count="0" type="stmt"/>
-        <line num="136" count="1" type="stmt"/>
+        <line num="136" count="7" type="stmt"/>
         <line num="139" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="140" count="0" type="stmt"/>
         <line num="143" count="0" type="stmt"/>
@@ -850,52 +414,52 @@
         <line num="199" count="0" type="stmt"/>
         <line num="201" count="0" type="stmt"/>
         <line num="203" count="0" type="stmt"/>
-        <line num="206" count="1" type="stmt"/>
-        <line num="207" count="1" type="cond" truecount="0" falsecount="2"/>
+        <line num="206" count="7" type="stmt"/>
+        <line num="207" count="7" type="cond" truecount="0" falsecount="2"/>
       </file>
-      <file name="start_with.js" path="C:\Projects\String\src\plugins\start_with.js">
+      <file name="start_with.js" path="P:\Projects\String\src\plugins\start_with.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
       </file>
-      <file name="strip.js" path="C:\Projects\String\src\plugins\strip.js">
+      <file name="strip.js" path="P:\Projects\String\src\plugins\strip.js">
         <metrics statements="5" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="1" type="cond" truecount="0" falsecount="2"/>
+        <line num="3" count="7" type="cond" truecount="0" falsecount="2"/>
         <line num="4" count="0" type="stmt"/>
         <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="9" count="0" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
       </file>
-      <file name="strip_bom.js" path="C:\Projects\String\src\plugins\strip_bom.js">
+      <file name="strip_bom.js" path="P:\Projects\String\src\plugins\strip_bom.js">
         <metrics statements="4" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
         <line num="6" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
       </file>
-      <file name="strip_tags.js" path="C:\Projects\String\src\plugins\strip_tags.js">
+      <file name="strip_tags.js" path="P:\Projects\String\src\plugins\strip_tags.js">
         <metrics statements="6" coveredstatements="2" conditionals="3" coveredconditionals="0" methods="3" coveredmethods="0"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="6" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="6" count="7" type="cond" truecount="0" falsecount="1"/>
         <line num="7" count="0" type="stmt"/>
         <line num="8" count="0" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
         <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
       </file>
-      <file name="substr.js" path="C:\Projects\String\src\plugins\substr.js">
+      <file name="substr.js" path="P:\Projects\String\src\plugins\substr.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="6" count="1" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
       </file>
-      <file name="swap.js" path="C:\Projects\String\src\plugins\swap.js">
+      <file name="swap.js" path="P:\Projects\String\src\plugins\swap.js">
         <metrics statements="5" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
         <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="10" count="1" type="stmt"/>
+        <line num="10" count="7" type="stmt"/>
       </file>
-      <file name="title_case.js" path="C:\Projects\String\src\plugins\title_case.js">
+      <file name="title_case.js" path="P:\Projects\String\src\plugins\title_case.js">
         <metrics statements="7" coveredstatements="1" conditionals="11" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="6" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="6" count="7" type="cond" truecount="0" falsecount="1"/>
         <line num="7" count="0" type="stmt"/>
         <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="9" count="0" type="cond" truecount="0" falsecount="4"/>
@@ -903,12 +467,12 @@
         <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
       </file>
-      <file name="trim.js" path="C:\Projects\String\src\plugins\trim.js">
+      <file name="trim.js" path="P:\Projects\String\src\plugins\trim.js">
         <metrics statements="25" coveredstatements="5" conditionals="24" coveredconditionals="0" methods="5" coveredmethods="0"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="9" count="7" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
         <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="13" count="0" type="cond" truecount="0" falsecount="4"/>
@@ -919,7 +483,7 @@
         <line num="22" count="0" type="stmt"/>
         <line num="24" count="0" type="stmt"/>
         <line num="25" count="0" type="stmt"/>
-        <line num="31" count="1" type="stmt"/>
+        <line num="31" count="7" type="stmt"/>
         <line num="32" count="0" type="stmt"/>
         <line num="34" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="35" count="0" type="cond" truecount="0" falsecount="4"/>
@@ -931,48 +495,47 @@
         <line num="46" count="0" type="stmt"/>
         <line num="47" count="0" type="stmt"/>
       </file>
-      <file name="truncate.js" path="C:\Projects\String\src\plugins\truncate.js">
+      <file name="truncate.js" path="P:\Projects\String\src\plugins\truncate.js">
         <metrics statements="4" coveredstatements="1" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="10" count="1" type="cond" truecount="0" falsecount="2"/>
+        <line num="10" count="7" type="cond" truecount="0" falsecount="2"/>
         <line num="11" count="0" type="stmt"/>
         <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
       </file>
-      <file name="unescape_html.js" path="C:\Projects\String\src\plugins\unescape_html.js">
+      <file name="unescape_html.js" path="P:\Projects\String\src\plugins\unescape_html.js">
         <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="11" count="7" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
+        <line num="17" count="7" type="stmt"/>
       </file>
-      <file name="unique.js" path="C:\Projects\String\src\plugins\unique.js">
+      <file name="unique.js" path="P:\Projects\String\src\plugins\unique.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
       </file>
-      <file name="uniqueWords.js" path="C:\Projects\String\src\plugins\uniqueWords.js">
+      <file name="uniqueWords.js" path="P:\Projects\String\src\plugins\uniqueWords.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
       </file>
-      <file name="upper_case.js" path="C:\Projects\String\src\plugins\upper_case.js">
+      <file name="upper_case.js" path="P:\Projects\String\src\plugins\upper_case.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
       </file>
-      <file name="words.js" path="C:\Projects\String\src\plugins\words.js">
-        <metrics statements="7" coveredstatements="1" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
+      <file name="words.js" path="P:\Projects\String\src\plugins\words.js">
+        <metrics statements="7" coveredstatements="4" conditionals="6" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="8" count="7" type="stmt"/>
+        <line num="11" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="12" count="3" type="cond" truecount="1" falsecount="1"/>
         <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="14" count="0" type="stmt"/>
         <line num="16" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
       </file>
-      <file name="wrap.js" path="C:\Projects\String\src\plugins\wrap.js">
+      <file name="wrap.js" path="P:\Projects\String\src\plugins\wrap.js">
         <metrics statements="2" coveredstatements="2" conditionals="3" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="3" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="4" count="1" type="cond" truecount="0" falsecount="2"/>
+        <line num="3" count="7" type="cond" truecount="0" falsecount="1"/>
+        <line num="4" count="7" type="cond" truecount="0" falsecount="2"/>
       </file>
     </package>
->>>>>>> ab374ba235caf6e6f83144757f21b96390d808b7
   </project>
 </coverage>

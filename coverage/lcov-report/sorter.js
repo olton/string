@@ -24,8 +24,6 @@ var addSorting = (function() {
         return getTableHeader().querySelectorAll('th')[n];
     }
 
-<<<<<<< HEAD
-=======
     function onFilterInput() {
         const searchValue = document.getElementById('fileSearch').value;
         const rows = document.getElementsByTagName('tbody')[0].children;
@@ -51,7 +49,6 @@ var addSorting = (function() {
         template.parentElement.appendChild(templateClone);
     }
 
->>>>>>> ab374ba235caf6e6f83144757f21b96390d808b7
     // loads all columns
     function loadColumns() {
         var colNodes = getTableHeader().querySelectorAll('th'),
@@ -190,10 +187,7 @@ var addSorting = (function() {
         }
         cols = loadColumns();
         loadData();
-<<<<<<< HEAD
-=======
         addSearchBox();
->>>>>>> ab374ba235caf6e6f83144757f21b96390d808b7
         addSortIndicators();
         enableUI();
     };

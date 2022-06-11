@@ -1,5 +1,5 @@
 import assert from "assert";
-import {str, Str} from "../dist/string.esm";
+import {str, Str} from "../src/index.js";
 
 describe('Test factory str()', () => {
     it ('Should return a instance of Str ', () => {
