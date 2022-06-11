@@ -27,17 +27,13 @@ export default [
         input: 'src/index.js',
         output: [
             {
-                file: 'dist/string.cjs.js',
-                format: 'cjs',
-            },
-            {
-                file: 'dist/string.esm.js',
-                format: 'es'
-            },
+                file: 'dist/string.js',
+                format: 'esm',
+            }
         ],
         plugins: [
             commonjs(),
             babel({ babelHelpers: 'bundled' })
         ]
-    },
+    }
 ]

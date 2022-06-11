@@ -285,6 +285,10 @@ class Str {
     wrapTag(tag){
         return this._result(f.wrapTag(this.value, tag))
     }
+
+    shorten(l, d){
+        return this._result(f.shorten(this.value, l, d))
+    }
 }
 
 Object.assign(Str, f)

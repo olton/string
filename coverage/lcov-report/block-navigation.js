@@ -63,6 +63,17 @@ var jumpToCode = (function init() {
     }
 
     return function jump(event) {
+<<<<<<< HEAD
+=======
+        if (
+            document.getElementById('fileSearch') === document.activeElement &&
+            document.activeElement != null
+        ) {
+            // if we're currently focused on the search input, we don't want to navigate
+            return;
+        }
+
+>>>>>>> ab374ba235caf6e6f83144757f21b96390d808b7
         switch (event.which) {
             case 78: // n
             case 74: // j
