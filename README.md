@@ -21,4 +21,4 @@ No sponsor yet :(
 
 ## License
 
-Datetime is licensed under a [MIT license](LICENSE).
+String is licensed under a [MIT license](LICENSE).

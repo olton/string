@@ -3,6 +3,5 @@
         [
             "@babel/env"
         ]
-    ],
-    "plugins": ["@babel/plugin-proposal-throw-expressions"]
+    ]
 }

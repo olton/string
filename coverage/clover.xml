@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1654509261243" clover="3.2.0">
-  <project timestamp="1654509261243" name="All files">
-    <metrics statements="366" coveredstatements="102" conditionals="245" coveredconditionals="15" methods="153" coveredmethods="19" elements="764" coveredelements="136" complexity="0" loc="366" ncloc="366" packages="2" files="54" classes="54"/>
+<coverage generated="1654858272124" clover="3.2.0">
+  <project timestamp="1654858272124" name="All files">
+    <metrics statements="366" coveredstatements="89" conditionals="245" coveredconditionals="5" methods="153" coveredmethods="7" elements="764" coveredelements="101" complexity="0" loc="366" ncloc="366" packages="2" files="54" classes="54"/>
     <package name="core">
-      <metrics statements="79" coveredstatements="15" conditionals="6" coveredconditionals="3" methods="72" coveredmethods="10"/>
+      <metrics statements="79" coveredstatements="10" conditionals="6" coveredconditionals="3" methods="72" coveredmethods="5"/>
       <file name="class.js" path="C:\Projects\String\src\core\class.js">
-        <metrics statements="79" coveredstatements="15" conditionals="6" coveredconditionals="3" methods="72" coveredmethods="10"/>
-        <line num="5" count="7" type="stmt"/>
-        <line num="6" count="7" type="stmt"/>
-        <line num="10" count="5" type="cond" truecount="1" falsecount="1"/>
+        <metrics statements="79" coveredstatements="10" conditionals="6" coveredconditionals="3" methods="72" coveredmethods="5"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="10" count="1" type="cond" truecount="1" falsecount="1"/>
         <line num="11" count="0" type="stmt"/>
-        <line num="14" count="5" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
         <line num="17" count="0" type="stmt"/>
-        <line num="20" count="2" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
         <line num="24" count="0" type="stmt"/>
         <line num="28" count="0" type="stmt"/>
         <line num="32" count="0" type="stmt"/>
         <line num="36" count="0" type="stmt"/>
-        <line num="40" count="7" type="cond" truecount="1" falsecount="1"/>
+        <line num="40" count="1" type="cond" truecount="1" falsecount="1"/>
         <line num="41" count="0" type="stmt"/>
-        <line num="43" count="7" type="stmt"/>
-        <line num="44" count="7" type="stmt"/>
-        <line num="48" count="1" type="stmt"/>
-        <line num="52" count="2" type="stmt"/>
-        <line num="56" count="2" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
         <line num="60" count="0" type="stmt"/>
         <line num="64" count="0" type="stmt"/>
         <line num="68" count="0" type="stmt"/>
@@ -82,138 +82,138 @@
         <line num="280" count="0" type="stmt"/>
         <line num="284" count="0" type="stmt"/>
         <line num="288" count="0" type="stmt"/>
-        <line num="292" count="1" type="stmt"/>
-        <line num="296" count="5" type="stmt"/>
-        <line num="298" count="7" type="stmt"/>
+        <line num="292" count="0" type="stmt"/>
+        <line num="296" count="1" type="stmt"/>
+        <line num="298" count="1" type="stmt"/>
       </file>
     </package>
     <package name="plugins">
-      <metrics statements="287" coveredstatements="87" conditionals="239" coveredconditionals="12" methods="81" coveredmethods="9"/>
+      <metrics statements="287" coveredstatements="79" conditionals="239" coveredconditionals="2" methods="81" coveredmethods="2"/>
       <file name="append.js" path="C:\Projects\String\src\plugins\append.js">
         <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="5" type="cond" truecount="0" falsecount="2"/>
+        <line num="4" count="3" type="cond" truecount="0" falsecount="2"/>
       </file>
       <file name="camel_case.js" path="C:\Projects\String\src\plugins\camel_case.js">
-        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-        <line num="5" count="5" type="stmt"/>
-        <line num="6" count="3" type="stmt"/>
-        <line num="7" count="6" type="cond" truecount="2" falsecount="0"/>
+        <metrics statements="3" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
       </file>
       <file name="capitalize.js" path="C:\Projects\String\src\plugins\capitalize.js">
-        <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
-        <line num="3" count="5" type="cond" truecount="1" falsecount="0"/>
-        <line num="4" count="9" type="stmt"/>
-        <line num="5" count="9" type="stmt"/>
-        <line num="6" count="9" type="cond" truecount="2" falsecount="0"/>
+        <metrics statements="4" coveredstatements="1" conditionals="3" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="cond" truecount="0" falsecount="2"/>
       </file>
       <file name="chars.js" path="C:\Projects\String\src\plugins\chars.js">
-        <metrics statements="1" coveredstatements="1" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
-        <line num="6" count="18" type="cond" truecount="1" falsecount="0"/>
+        <metrics statements="1" coveredstatements="1" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="6" count="1" type="cond" truecount="0" falsecount="1"/>
       </file>
       <file name="count.js" path="C:\Projects\String\src\plugins\count.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="6" count="5" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
       </file>
       <file name="count_chars.js" path="C:\Projects\String\src\plugins\count_chars.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="4" count="5" type="stmt"/>
-        <line num="5" count="5" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
       </file>
       <file name="count_substrings.js" path="C:\Projects\String\src\plugins\count_substrings.js">
         <metrics statements="4" coveredstatements="1" conditionals="5" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="5" type="cond" truecount="0" falsecount="1"/>
+        <line num="3" count="1" type="cond" truecount="0" falsecount="1"/>
         <line num="4" count="0" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
         <line num="6" count="0" type="cond" truecount="0" falsecount="4"/>
       </file>
       <file name="count_words.js" path="C:\Projects\String\src\plugins\count_words.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="4" count="5" type="stmt"/>
-        <line num="5" count="5" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
       </file>
       <file name="dashed_name.js" path="C:\Projects\String\src\plugins\dashed_name.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="4" count="5" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
       </file>
       <file name="decapitalize.js" path="C:\Projects\String\src\plugins\decapitalize.js">
         <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="5" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
       </file>
       <file name="ends_with.js" path="C:\Projects\String\src\plugins\ends_with.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="5" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
       </file>
       <file name="escape_html.js" path="C:\Projects\String\src\plugins\escape_html.js">
         <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="4" count="5" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
-        <line num="17" count="5" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
       </file>
       <file name="first.js" path="C:\Projects\String\src\plugins\first.js">
         <metrics statements="1" coveredstatements="1" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="7" count="5" type="cond" truecount="0" falsecount="1"/>
+        <line num="7" count="1" type="cond" truecount="0" falsecount="1"/>
       </file>
       <file name="includes.js" path="C:\Projects\String\src\plugins\includes.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="5" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
       </file>
       <file name="insert.js" path="C:\Projects\String\src\plugins\insert.js">
         <metrics statements="3" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="5" type="cond" truecount="0" falsecount="2"/>
+        <line num="3" count="1" type="cond" truecount="0" falsecount="2"/>
         <line num="4" count="0" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
       </file>
       <file name="is_alpha.js" path="C:\Projects\String\src\plugins\is_alpha.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="4" count="5" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
       </file>
       <file name="is_alpha_digit.js" path="C:\Projects\String\src\plugins\is_alpha_digit.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="4" count="5" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
       </file>
       <file name="is_blank.js" path="C:\Projects\String\src\plugins\is_blank.js">
         <metrics statements="1" coveredstatements="1" conditionals="3" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="4" count="5" type="cond" truecount="0" falsecount="3"/>
+        <line num="4" count="1" type="cond" truecount="0" falsecount="3"/>
       </file>
       <file name="is_digit.js" path="C:\Projects\String\src\plugins\is_digit.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="4" count="5" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
       </file>
       <file name="is_empty.js" path="C:\Projects\String\src\plugins\is_empty.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="5" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
       </file>
       <file name="is_lower.js" path="C:\Projects\String\src\plugins\is_lower.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="5" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
       </file>
       <file name="is_string.js" path="C:\Projects\String\src\plugins\is_string.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="5" type="stmt"/>
+        <line num="1" count="1" type="stmt"/>
       </file>
       <file name="is_upper.js" path="C:\Projects\String\src\plugins\is_upper.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="5" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
       </file>
       <file name="kebab_case.js" path="C:\Projects\String\src\plugins\kebab_case.js">
         <metrics statements="1" coveredstatements="1" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="4" count="5" type="cond" truecount="0" falsecount="1"/>
+        <line num="4" count="1" type="cond" truecount="0" falsecount="1"/>
       </file>
       <file name="last.js" path="C:\Projects\String\src\plugins\last.js">
         <metrics statements="3" coveredstatements="1" conditionals="3" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="7" count="5" type="cond" truecount="0" falsecount="1"/>
+        <line num="7" count="1" type="cond" truecount="0" falsecount="1"/>
         <line num="8" count="0" type="stmt"/>
         <line num="9" count="0" type="cond" truecount="0" falsecount="2"/>
       </file>
       <file name="lower_case.js" path="C:\Projects\String\src\plugins\lower_case.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="5" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
       </file>
       <file name="matches.js" path="C:\Projects\String\src\plugins\matches.js">
         <metrics statements="8" coveredstatements="1" conditionals="7" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="4" count="5" type="cond" truecount="0" falsecount="1"/>
+        <line num="4" count="1" type="cond" truecount="0" falsecount="1"/>
         <line num="5" count="0" type="stmt"/>
         <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="9" count="0" type="cond" truecount="0" falsecount="2"/>
@@ -224,11 +224,11 @@
       </file>
       <file name="pad.js" path="C:\Projects\String\src\plugins\pad.js">
         <metrics statements="26" coveredstatements="5" conditionals="24" coveredconditionals="0" methods="5" coveredmethods="0"/>
-        <line num="7" count="5" type="cond" truecount="0" falsecount="1"/>
+        <line num="7" count="1" type="cond" truecount="0" falsecount="1"/>
         <line num="8" count="0" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
-        <line num="14" count="5" type="cond" truecount="0" falsecount="3"/>
+        <line num="14" count="1" type="cond" truecount="0" falsecount="3"/>
         <line num="15" count="0" type="stmt"/>
         <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="17" count="0" type="stmt"/>
@@ -237,11 +237,11 @@
         <line num="21" count="0" type="cond" truecount="0" falsecount="4"/>
         <line num="23" count="0" type="stmt"/>
         <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="28" count="5" type="cond" truecount="0" falsecount="2"/>
+        <line num="28" count="1" type="cond" truecount="0" falsecount="2"/>
         <line num="29" count="0" type="stmt"/>
-        <line num="32" count="5" type="cond" truecount="0" falsecount="2"/>
+        <line num="32" count="1" type="cond" truecount="0" falsecount="2"/>
         <line num="33" count="0" type="stmt"/>
-        <line num="36" count="5" type="cond" truecount="0" falsecount="2"/>
+        <line num="36" count="1" type="cond" truecount="0" falsecount="2"/>
         <line num="37" count="0" type="stmt"/>
         <line num="38" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="39" count="0" type="stmt"/>
@@ -253,11 +253,11 @@
       </file>
       <file name="prepend.js" path="C:\Projects\String\src\plugins\prepend.js">
         <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="4" count="5" type="cond" truecount="0" falsecount="2"/>
+        <line num="4" count="1" type="cond" truecount="0" falsecount="2"/>
       </file>
       <file name="prune.js" path="C:\Projects\String\src\plugins\prune.js">
         <metrics statements="10" coveredstatements="1" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="10" count="5" type="cond" truecount="0" falsecount="2"/>
+        <line num="10" count="1" type="cond" truecount="0" falsecount="2"/>
         <line num="11" count="0" type="stmt"/>
         <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="13" count="0" type="stmt"/>
@@ -270,7 +270,7 @@
       </file>
       <file name="repeat.js" path="C:\Projects\String\src\plugins\repeat.js">
         <metrics statements="9" coveredstatements="8" conditionals="5" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="6" count="5" type="cond" truecount="0" falsecount="1"/>
+        <line num="6" count="1" type="cond" truecount="0" falsecount="1"/>
         <line num="7" count="3" type="stmt"/>
         <line num="8" count="3" type="cond" truecount="1" falsecount="1"/>
         <line num="9" count="3" type="stmt"/>
@@ -282,19 +282,19 @@
       </file>
       <file name="reverse.js" path="C:\Projects\String\src\plugins\reverse.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="4" count="5" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
       </file>
       <file name="shorten.js" path="C:\Projects\String\src\plugins\shorten.js">
-        <metrics statements="1" coveredstatements="1" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="1" count="5" type="cond" truecount="2" falsecount="2"/>
+        <metrics statements="1" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="cond" truecount="0" falsecount="4"/>
       </file>
       <file name="shuffle.js" path="C:\Projects\String\src\plugins\shuffle.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="4" count="5" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
       </file>
       <file name="slice.js" path="C:\Projects\String\src\plugins\slice.js">
         <metrics statements="7" coveredstatements="1" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="7" count="5" type="cond" truecount="0" falsecount="1"/>
+        <line num="7" count="1" type="cond" truecount="0" falsecount="1"/>
         <line num="8" count="0" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
@@ -304,18 +304,18 @@
       </file>
       <file name="snake_case.js" path="C:\Projects\String\src\plugins\snake_case.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="4" count="5" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
       </file>
       <file name="split.js" path="C:\Projects\String\src\plugins\split.js">
         <metrics statements="4" coveredstatements="1" conditionals="7" coveredconditionals="0" methods="3" coveredmethods="0"/>
-        <line num="4" count="5" type="cond" truecount="0" falsecount="3"/>
+        <line num="4" count="1" type="cond" truecount="0" falsecount="3"/>
         <line num="5" count="0" type="stmt"/>
         <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
       </file>
       <file name="sprintf.js" path="C:\Projects\String\src\plugins\sprintf.js">
         <metrics statements="100" coveredstatements="4" conditionals="95" coveredconditionals="0" methods="4" coveredmethods="0"/>
-        <line num="8" count="5" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
         <line num="27" count="0" type="stmt"/>
         <line num="29" count="0" type="stmt"/>
         <line num="30" count="0" type="cond" truecount="0" falsecount="2"/>
@@ -383,7 +383,7 @@
         <line num="128" count="0" type="cond" truecount="0" falsecount="4"/>
         <line num="129" count="0" type="cond" truecount="0" falsecount="4"/>
         <line num="133" count="0" type="stmt"/>
-        <line num="136" count="5" type="stmt"/>
+        <line num="136" count="1" type="stmt"/>
         <line num="139" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="140" count="0" type="stmt"/>
         <line num="143" count="0" type="stmt"/>
@@ -413,16 +413,16 @@
         <line num="199" count="0" type="stmt"/>
         <line num="201" count="0" type="stmt"/>
         <line num="203" count="0" type="stmt"/>
-        <line num="206" count="5" type="stmt"/>
-        <line num="207" count="5" type="cond" truecount="0" falsecount="2"/>
+        <line num="206" count="1" type="stmt"/>
+        <line num="207" count="1" type="cond" truecount="0" falsecount="2"/>
       </file>
       <file name="start_with.js" path="C:\Projects\String\src\plugins\start_with.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="5" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
       </file>
       <file name="strip.js" path="C:\Projects\String\src\plugins\strip.js">
         <metrics statements="5" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="5" type="cond" truecount="0" falsecount="2"/>
+        <line num="3" count="1" type="cond" truecount="0" falsecount="2"/>
         <line num="4" count="0" type="stmt"/>
         <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="9" count="0" type="stmt"/>
@@ -430,15 +430,15 @@
       </file>
       <file name="strip_bom.js" path="C:\Projects\String\src\plugins\strip_bom.js">
         <metrics statements="4" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="4" count="5" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
         <line num="6" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
       </file>
       <file name="strip_tags.js" path="C:\Projects\String\src\plugins\strip_tags.js">
         <metrics statements="6" coveredstatements="2" conditionals="3" coveredconditionals="0" methods="3" coveredmethods="0"/>
-        <line num="4" count="5" type="stmt"/>
-        <line num="6" count="5" type="cond" truecount="0" falsecount="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="cond" truecount="0" falsecount="1"/>
         <line num="7" count="0" type="stmt"/>
         <line num="8" count="0" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
@@ -446,19 +446,19 @@
       </file>
       <file name="substr.js" path="C:\Projects\String\src\plugins\substr.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="6" count="5" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
       </file>
       <file name="swap.js" path="C:\Projects\String\src\plugins\swap.js">
         <metrics statements="5" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="3" count="5" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
         <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="10" count="5" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
       </file>
       <file name="title_case.js" path="C:\Projects\String\src\plugins\title_case.js">
         <metrics statements="7" coveredstatements="1" conditionals="11" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="6" count="5" type="cond" truecount="0" falsecount="1"/>
+        <line num="6" count="1" type="cond" truecount="0" falsecount="1"/>
         <line num="7" count="0" type="stmt"/>
         <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="9" count="0" type="cond" truecount="0" falsecount="4"/>
@@ -468,10 +468,10 @@
       </file>
       <file name="trim.js" path="C:\Projects\String\src\plugins\trim.js">
         <metrics statements="25" coveredstatements="5" conditionals="24" coveredconditionals="0" methods="5" coveredmethods="0"/>
-        <line num="4" count="5" type="stmt"/>
-        <line num="5" count="5" type="stmt"/>
-        <line num="7" count="5" type="stmt"/>
-        <line num="9" count="5" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
         <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="13" count="0" type="cond" truecount="0" falsecount="4"/>
@@ -482,7 +482,7 @@
         <line num="22" count="0" type="stmt"/>
         <line num="24" count="0" type="stmt"/>
         <line num="25" count="0" type="stmt"/>
-        <line num="31" count="5" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
         <line num="32" count="0" type="stmt"/>
         <line num="34" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="35" count="0" type="cond" truecount="0" falsecount="4"/>
@@ -496,44 +496,44 @@
       </file>
       <file name="truncate.js" path="C:\Projects\String\src\plugins\truncate.js">
         <metrics statements="4" coveredstatements="1" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="10" count="5" type="cond" truecount="0" falsecount="2"/>
+        <line num="10" count="1" type="cond" truecount="0" falsecount="2"/>
         <line num="11" count="0" type="stmt"/>
         <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
       </file>
       <file name="unescape_html.js" path="C:\Projects\String\src\plugins\unescape_html.js">
         <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="3" count="5" type="stmt"/>
-        <line num="11" count="5" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
-        <line num="17" count="5" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
       </file>
       <file name="unique.js" path="C:\Projects\String\src\plugins\unique.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="4" count="5" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
       </file>
       <file name="uniqueWords.js" path="C:\Projects\String\src\plugins\uniqueWords.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="4" count="5" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
       </file>
       <file name="upper_case.js" path="C:\Projects\String\src\plugins\upper_case.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="5" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
       </file>
       <file name="words.js" path="C:\Projects\String\src\plugins\words.js">
-        <metrics statements="7" coveredstatements="4" conditionals="6" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="8" count="5" type="stmt"/>
-        <line num="11" count="3" type="cond" truecount="1" falsecount="1"/>
-        <line num="12" count="3" type="cond" truecount="1" falsecount="1"/>
+        <metrics statements="7" coveredstatements="1" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="14" count="0" type="stmt"/>
         <line num="16" count="0" type="stmt"/>
-        <line num="19" count="3" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
       </file>
       <file name="wrap.js" path="C:\Projects\String\src\plugins\wrap.js">
         <metrics statements="2" coveredstatements="2" conditionals="3" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="3" count="5" type="cond" truecount="0" falsecount="1"/>
-        <line num="4" count="5" type="cond" truecount="0" falsecount="2"/>
+        <line num="3" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="4" count="1" type="cond" truecount="0" falsecount="2"/>
       </file>
     </package>
   </project>
