@@ -1,6 +1,6 @@
 {
   "name": "@olton/string",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "String is a minimalist JavaScript library for manipulating with strings for node and modern browsers with a comfortable modern API.",
   "main": "dist/string.js",
   "type": "module",
