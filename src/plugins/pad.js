@@ -26,11 +26,11 @@ const _pad = (s, pad = "", len = 0, left = false) => {
 }
 
 export const lpad = (s, pad = ' ', len = 0) => {
-    return _pad(s, len, pad, true)
+    return _pad(s, pad, len,  true)
 }
 
 export const rpad = (s, pad = ' ', len = 0) => {
-    return _pad(s, len, pad, false)
+    return _pad(s, pad, len, false)
 }
 
 export const pad = (s, pad = '', len = 0) => {
