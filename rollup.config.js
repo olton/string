@@ -1,10 +1,18 @@
-import { terser } from 'rollup-plugin-terser'
-import { babel } from '@rollup/plugin-babel'
+import {nodeResolve} from '@rollup/plugin-node-resolve'
 import commonjs from '@rollup/plugin-commonjs'
+import terser from '@rollup/plugin-terser'
+import progress from 'rollup-plugin-progress';
 
 export default [
     {
         input: 'src/browser.js',
+        plugins: [
+            progress(),
+            nodeResolve({
+                browser: true
+            }),
+            commonjs(),
+        ],
         output: [
             {
                 file: 'lib/string.js',
@@ -25,15 +33,18 @@ export default [
     },
     {
         input: 'src/index.js',
+        plugins: [
+            progress(),
+            nodeResolve({
+                browser: true
+            }),
+            commonjs(),
+        ],
         output: [
             {
                 file: 'dist/string.js',
                 format: 'esm',
             }
         ],
-        plugins: [
-            commonjs(),
-            babel({ babelHelpers: 'bundled' })
-        ]
     }
 ]
