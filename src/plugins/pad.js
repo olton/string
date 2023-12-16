@@ -8,7 +8,7 @@ const padBuilder = (pad, len = 0) => {
     const padLength = pad.length
     const length = len - padLength
 
-    return repeat(pad, length + 1).substr(0, len)
+    return repeat(pad, length + 1).substring(0, len)
 }
 
 const _pad = (s, pad = "", len = 0, left = false) => {

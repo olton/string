@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for plugins/is_string.js</title>
+    <title>Code coverage report for plugins/starts_with.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../prettify.css" />
     <link rel="stylesheet" href="../base.css" />
@@ -19,7 +19,7 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../index.html">All files</a> / <a href="index.html">plugins</a> is_string.js</h1>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">plugins</a> starts_with.js</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
@@ -63,7 +63,13 @@
     </div>
     <div class='status-line medium'></div>
     <pre><table class="coverage">
-<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">export const isString = <span class="fstat-no" title="function not covered" >s </span>=&gt; <span class="cstat-no" title="statement not covered" >typeof s === "string"</span></pre></td></tr></table></pre>
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">import {toStr} from "../helpers/string/to_string";
+&nbsp;
+export const startsWith = <span class="fstat-no" title="function not covered" >(s</span>, start, pos) =&gt; <span class="cstat-no" title="statement not covered" >toStr(s).startsWith(start, pos)</span></pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->

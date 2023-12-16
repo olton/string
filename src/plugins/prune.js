@@ -20,5 +20,5 @@ export const prune = (s, len = 0, end = "") => {
         }
     });
 
-    return _s.substr(0, _truncatedLen) + end;
+    return _s.substring(0, _truncatedLen) + end;
 }

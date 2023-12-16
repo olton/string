@@ -1,5 +1,5 @@
-import {toStr} from "../helpers/string/to_string";
-import {substr} from "./substr";
+import {toStr} from "../helpers/string/to_string.js";
+import {substring} from "./substr.js";
 
 /*
 * Slice string to N parts.
@@ -11,7 +11,7 @@ export const slice = (s, parts = 1) => {
 
   for(let i = 0; i < parts; i++) {
     res.push(
-      substr(_s, i * len, len)
+      substring(_s, i * len, len)
     )
   }
 

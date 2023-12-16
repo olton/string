@@ -210,8 +210,8 @@ class Str {
         return this._result(f.vsprintf(this.value, ...args))
     }
 
-    startWith(str, pos){
-        return f.startWith(this.value, str, pos)
+    startsWith(str, pos){
+        return f.startsWith(this.value, str, pos)
     }
 
     stripBoom(){
