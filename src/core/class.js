@@ -230,8 +230,8 @@ class Str {
         return this._result(f.strip(this.value, str, replace))
     }
 
-    substr(start, len){
-        return this._result(f.substr(this.value, start, len))
+    substring(start, len){
+        return this._result(f.substring(this.value, start, len))
     }
 
     swap(){
@@ -256,6 +256,10 @@ class Str {
 
     truncate(len, end){
         return this._result(f.truncate(this.value, len, end))
+    }
+
+    truncateWithAlign(len, end){
+        return this._result(f.truncateWithAlign(this.value, len, end))
     }
 
     unescapeHtml(){
