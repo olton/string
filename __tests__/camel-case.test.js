@@ -1,16 +1,17 @@
+import {describe, test, expect} from "vitest";
 import {camelCase} from "../src/plugins/camel_case.js";
 import {Str, str} from "../src/index.js"
 
 describe("Test camelcase function", () => {
-    it("Function test", () => {
+    test("Function test", () => {
         expect(camelCase("camel-case")).toBe("camelCase")
     })
 
-    it("Static test", () => {
+    test("Static test", () => {
         expect(Str.camelCase("camel-case")).toBe("camelCase")
     })
 
-    it("Class test", () => {
+    test("Class test", () => {
         expect(""+str("camel-case").camelCase()).toBe("camelCase")
     })
 })

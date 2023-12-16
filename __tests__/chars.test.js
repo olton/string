@@ -1,28 +1,29 @@
+import {describe, test, expect} from "vitest";
 import {chars} from "../src/plugins/chars.js";
 import {Str, str} from "../src/index.js"
 
 describe("Test chars function", () => {
-    it("Function test", () => {
+    test("Function test", () => {
         expect(chars("abc")).toEqual(["a", "b", "c"])
     })
 
-    it("Function test ignore", () => {
+    test("Function test ignore", () => {
         expect(chars("abc", "b")).toEqual(["a", "c"])
     })
 
-    it("Static test", () => {
+    test("Static test", () => {
         expect(Str.chars("abc")).toEqual(["a", "b", "c"])
     })
 
-    it("Static test ignore", () => {
+    test("Static test ignore", () => {
         expect(Str.chars("abc", "b")).toEqual(["a", "c"])
     })
 
-    it("Class test", () => {
+    test("Class test", () => {
         expect(str("abc").chars().val()).toEqual(["a", "b", "c"])
     })
 
-    it("Class test ignore", () => {
+    test("Class test ignore", () => {
         expect(str("abc").chars("b").val()).toEqual(["a", "c"])
     })
 })

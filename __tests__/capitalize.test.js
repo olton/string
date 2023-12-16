@@ -1,28 +1,29 @@
+import {describe, test, expect} from "vitest";
 import {capitalize} from "../src/plugins/capitalize.js";
 import {Str, str} from "../src/index.js"
 
 describe("Test capitalize function", () => {
-    it("Function test", () => {
+    test("Function test", () => {
         expect(capitalize("capitalize")).toBe("Capitalize")
     })
 
-    it("Function test strong", () => {
+    test("Function test strong", () => {
         expect(capitalize("caPiTalizE", true)).toBe("Capitalize")
     })
 
-    it("Static test", () => {
+    test("Static test", () => {
         expect(Str.capitalize("capitalize")).toBe("Capitalize")
     })
 
-    it("Static test strong", () => {
+    test("Static test strong", () => {
         expect(Str.capitalize("caPiTalizE", true)).toBe("Capitalize")
     })
 
-    it("Class test", () => {
+    test("Class test", () => {
         expect(""+str("capitalize").capitalize()).toBe("Capitalize")
     })
 
-    it("Class test strong", () => {
+    test("Class test strong", () => {
         expect(""+str("caPiTalizE").capitalize(true)).toBe("Capitalize")
     })
 })
