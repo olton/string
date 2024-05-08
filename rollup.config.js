@@ -1,5 +1,3 @@
-import {nodeResolve} from '@rollup/plugin-node-resolve'
-import commonjs from '@rollup/plugin-commonjs'
 import terser from '@rollup/plugin-terser'
 import progress from 'rollup-plugin-progress';
 import pkg from "./package.json" assert {type: "json"}
@@ -34,16 +32,13 @@ export default [
         input: 'src/browser.js',
         plugins: [
             progress(),
-            nodeResolve({
-                browser: true
-            }),
-            commonjs(),
         ],
         output: [
             {
                 file: 'lib/string.js',
                 format: 'iife',
                 name: "",
+                banner,
                 plugins: [
                     production && terser({
                         keep_fnames: true,
@@ -62,10 +57,12 @@ export default [
             {
                 file: 'dist/string.cjs.js',
                 format: 'esm',
+                banner,
             },
             {
                 file: 'dist/string.es.js',
                 format: 'esm',
+                banner,
             },
         ],
     }
