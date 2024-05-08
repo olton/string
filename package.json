@@ -1,13 +1,20 @@
 {
   "name": "@olton/string",
-  "version": "0.4.4",
+  "version": "0.5.0",
   "description": "String is a minimalist JavaScript library for manipulating with strings for node and modern browsers with a comfortable modern API.",
-  "main": "dist/string.js",
+  "main": "dist/string.cjs.js",
+  "module": "dist/string.es.js",
+  "files": [
+    "dist"
+  ],
   "type": "module",
   "scripts": {
     "prebuild": "shx rm -rf dist/* lib/*",
-    "build": "rollup --config",
-    "test": "vitest run"
+    "build": "npm i && cross-env MODE=production rollup --config",
+    "dev": "cross-env MODE=development rollup --config",
+    "watch": "cross-env MODE=development rollup -c -w",
+    "test": "vitest run",
+    "pub": "npm publish --access public"
   },
   "repository": {
     "type": "git",
@@ -38,13 +45,12 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-json": "^6.1.0",
-    "rollup": "^4.9.0",
-    "shx": "^0.3.4",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-terser": "^0.4.4",
+    "cross-env": "^7.0.3",
+    "rollup": "^4.9.0",
     "rollup-plugin-progress": "^1.1.2",
+    "shx": "^0.3.4",
     "vitest": "^1.0.4"
-  },
-  "dependencies": {
   }
 }

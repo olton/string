@@ -2,6 +2,32 @@ import {nodeResolve} from '@rollup/plugin-node-resolve'
 import commonjs from '@rollup/plugin-commonjs'
 import terser from '@rollup/plugin-terser'
 import progress from 'rollup-plugin-progress';
+import pkg from "./package.json" assert {type: "json"}
+import fs from "node:fs"
+
+const production = process.env.MODE === 'production',
+    sourcemap = !production
+
+const banner = `
+/*!
+ * String - String routines
+ * Copyright ${new Date().getFullYear()} by Serhii Pimenov
+ * Licensed under MIT
+ !*/
+`
+
+let txt
+
+txt = fs.readFileSync(`src/browser.js`, 'utf8')
+txt = txt.replace(/version = ".+"/g, `version = "${pkg.version}"`)
+txt = txt.replace(/build_time = ".+"/g, `build_time = "${new Date().toLocaleString()}"`)
+fs.writeFileSync(`src/browser.js`, txt, { encoding: 'utf8', flag: 'w+' })
+
+txt = fs.readFileSync(`src/index.js`, 'utf8')
+txt = txt.replace(/version = ".+"/g, `version = "${pkg.version}"`)
+txt = txt.replace(/build_time = ".+"/g, `build_time = "${new Date().toLocaleString()}"`)
+fs.writeFileSync(`src/index.js`, txt, { encoding: 'utf8', flag: 'w+' })
+
 
 export default [
     {
@@ -19,32 +45,28 @@ export default [
                 format: 'iife',
                 name: "",
                 plugins: [
+                    production && terser({
+                        keep_fnames: true,
+                        keep_classnames: true
+                    })
                 ]
             },
-            {
-                file: 'lib/string.min.js',
-                format: 'iife',
-                name: "",
-                plugins: [
-                    terser()
-                ]
-            }
         ]
     },
     {
         input: 'src/index.js',
         plugins: [
             progress(),
-            nodeResolve({
-                browser: true
-            }),
-            commonjs(),
         ],
         output: [
             {
-                file: 'dist/string.js',
+                file: 'dist/string.cjs.js',
                 format: 'esm',
-            }
+            },
+            {
+                file: 'dist/string.es.js',
+                format: 'esm',
+            },
         ],
     }
 ]
