@@ -12,7 +12,7 @@
     "clean": "shx rm -rf dist/* lib/*",
     "build": "npm run clean && cross-env MODE=production node build.js",
     "dev": "npm run clean && cross-env MODE=development node build.js",
-    "test": "vitest run",
+    "test": "easytest --verbose",
     "pub": "npm publish --access public"
   },
   "repository": {
