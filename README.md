@@ -19,6 +19,10 @@
 * 🔥 Chainable
 * 👫 All browsers, Electron, NodeJS supported
 
+## Documentation
+
+Read about `String` usage in the [Metro UI](https://docs-new.metroui.org.ua/libraries/string) documentation.
+
 ## Sponsors
 No sponsor yet :(
 
