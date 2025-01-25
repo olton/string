@@ -5,12 +5,16 @@
 
 ![Alt](https://repobeats.axiom.co/api/embed/d3f3cae1714c5bcd2c86aa8d40ccdfd3db3c0ef3.svg "Repobeats analytics image")
 
+#### Status
 ![Dependencies](https://img.shields.io/badge/Dependencies-none-darklime.svg)
-![Size](https://img.badgesize.io/olton/string/master/lib/string.js.svg)
-![Size gzip](https://img.badgesize.io/olton/string/master/lib/string.js.svg?compression=gzip)
-![GitHub release](https://img.shields.io/github/v/release/olton/string?color=darkLime)
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)
-![GitHub issues](https://img.shields.io/github/issues-raw/olton/string.svg?color=red)
+![Package Version](https://img.shields.io/github/package-json/v/olton/string)
+![GitHub Release](https://img.shields.io/github/v/release/olton/string)
+![NPM Version](https://img.shields.io/npm/v/%40olton%2Fstring)
+![Website](https://img.shields.io/website/https/string.org.ua.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?color=7852a9)
+![Code size](https://img.shields.io/github/languages/code-size/olton/string.svg?color=830000)
+![GitHub JS Size](https://img.shields.io/github/size/olton/string/lib%2Fstring.js?label=JS%20Size&color=8f99ff)
+
 
 <hr>
 
