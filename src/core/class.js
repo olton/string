@@ -31,7 +31,7 @@ class Str {
     }
 
     toString(){
-        return this.value
+        return Array.isArray(this.value) ? this.value.join("") : this.value
     }
 
     _result(v){
@@ -297,7 +297,7 @@ class Str {
 
 Object.assign(Str, f)
 
-const str = v => new Str(v)
+const str = (v, mutable = true) => new Str(v, {mutable})
 
 export {
     Str,

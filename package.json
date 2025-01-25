@@ -1,18 +1,17 @@
 {
   "name": "@olton/string",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "String is a minimalist JavaScript library for manipulating with strings for node and modern browsers with a comfortable modern API.",
-  "main": "dist/string.cjs.js",
-  "module": "dist/string.es.js",
+  "main": "dist/string.js",
+  "module": "dist/string.js",
   "files": [
     "dist"
   ],
   "type": "module",
   "scripts": {
-    "prebuild": "shx rm -rf dist/* lib/*",
-    "build": "npm i && cross-env MODE=production rollup --config",
-    "dev": "cross-env MODE=development rollup --config",
-    "watch": "cross-env MODE=development rollup -c -w",
+    "clean": "shx rm -rf dist/* lib/*",
+    "build": "npm run clean && cross-env MODE=production node build.js",
+    "dev": "npm run clean && cross-env MODE=development node build.js",
     "test": "vitest run",
     "pub": "npm publish --access public"
   },
@@ -31,26 +30,14 @@
   "author": "Serhii Pimenov <serhii@pimenov.com.ua> (https://pimenov.com.ua/)",
   "license": "MIT",
   "browserslist": [
-    "last 2 versions",
-    "not ie >= 0",
-    "not ie_mob >= 0",
-    "not op_mini all",
-    "not op_mob >= 0",
-    "not kaios >= 0",
-    "not samsung >= 0",
-    "not baidu >= 0",
-    "not bb >= 0",
-    "maintained node versions"
+    "last 2 versions"
   ],
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^25.0.7",
-    "@rollup/plugin-json": "^6.1.0",
-    "@rollup/plugin-node-resolve": "^15.2.3",
-    "@rollup/plugin-terser": "^0.4.4",
+    "@olton/easytest": "^0.40.0",
+    "@olton/esbuild-plugin-progress": "^0.3.0",
     "cross-env": "^7.0.3",
-    "rollup": "^4.9.0",
-    "rollup-plugin-progress": "^1.1.2",
-    "shx": "^0.3.4",
-    "vitest": "^1.0.4"
+    "esbuild": "^0.24.2",
+    "esbuild-plugin-replace": "^1.4.0",
+    "shx": "^0.3.4"
   }
 }
