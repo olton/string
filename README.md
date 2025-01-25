@@ -21,11 +21,16 @@
 
 ## Documentation
 
-Read about `String` usage in the [Metro UI](https://docs-new.metroui.org.ua/libraries/string) documentation.
-
-## Sponsors
-No sponsor yet :(
+Read about `Hooks` usage in the [Metro UI](https://docs-new.metroui.org.ua/libraries/string) documentation.
 
 ## License
 
-String is licensed under a [MIT license](LICENSE).
+Hooks are licensed under a [MIT license](LICENSE).
+
+## Sponsors
+
+No sponsor yet :(
+Support this project by [donating](https://www.patreon.com/metroui).
+
+---
+Copyright © 2025 by [Serhii Pimenov](https://pimenov.com.ua)
