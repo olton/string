@@ -8,8 +8,8 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="../lib/string.js"></script>
-    <script>
+    <script type="module">
+        import { str } from '../dist/string.js';
         console.log(str(1).lpad('0', 2))
     </script>
 </body>

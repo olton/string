@@ -3,6 +3,14 @@ import {capitalize} from "./capitalize";
 import {lower} from "./lower_case";
 import {toStr} from "../helpers/string/to_string";
 
+/**
+ * Converts a string to title case, optionally allowing customization for splitting and ignoring certain characters.
+ *
+ * @param {string} s - The input string to be converted to title case.
+ * @param {string|string[]|boolean} noSplit - A string, an array of characters, or a boolean indicating the characters to skip capitalization.
+ * @param {string} [sep=""] - The separator to split the `noSplit` string (if `noSplit` is a string).
+ * @returns {string} - The input string converted to title case.
+ */
 export const title = (s, noSplit, sep = "") => {
     let _s = toStr(s)
     const regexp = REGEXP_EXTENDED_ASCII.test(_s) ? REGEXP_LATIN_WORD : REGEXP_WORD;
