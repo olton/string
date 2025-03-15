@@ -1,4 +1,4 @@
-import {toStr} from "../helpers/string/to_string";
+import {toStr} from "../helpers/string/to_string.js";
 
 /*
 * Split string to chars array with ignores

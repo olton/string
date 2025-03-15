@@ -1,5 +1,5 @@
-import {toStr} from "../helpers/string/to_string";
-import { REGEXP_TRIM_LEFT, REGEXP_TRIM_RIGHT } from "../helpers/regexp/regexp";
+import {toStr} from "../helpers/string/to_string.js";
+import { REGEXP_TRIM_LEFT, REGEXP_TRIM_RIGHT } from "../helpers/regexp/regexp.js";
 
 const reduce = Array.prototype.reduce;
 const reduceRight = Array.prototype.reduceRight;

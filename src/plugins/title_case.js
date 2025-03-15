@@ -1,7 +1,7 @@
-import {REGEXP_EXTENDED_ASCII, REGEXP_LATIN_WORD, REGEXP_WORD} from "../helpers/regexp/regexp";
-import {capitalize} from "./capitalize";
-import {lower} from "./lower_case";
-import {toStr} from "../helpers/string/to_string";
+import {REGEXP_EXTENDED_ASCII, REGEXP_LATIN_WORD, REGEXP_WORD} from "../helpers/regexp/regexp.js";
+import {capitalize} from "./capitalize.js";
+import {lower} from "./lower_case.js";
+import {toStr} from "../helpers/string/to_string.js";
 
 /**
  * Converts a string to title case, optionally allowing customization for splitting and ignoring certain characters.

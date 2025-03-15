@@ -1,5 +1,5 @@
-import {toStr} from "../helpers/string/to_string";
-import {BYTE_ORDER_MARK} from "../helpers/number/const";
+import {toStr} from "../helpers/string/to_string.js";
+import {BYTE_ORDER_MARK} from "../helpers/number/const.js";
 
 export const stripBoom = s => {
     let _s = toStr(s)

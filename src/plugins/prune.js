@@ -1,8 +1,8 @@
-import {toStr} from "../helpers/string/to_string"
-import {clip} from "../helpers/number/clip"
-import {toInt} from "../helpers/number/to_integer"
-import { MAX_SAFE_INTEGER } from "../helpers/number/const"
-import { REGEXP_EXTENDED_ASCII, REGEXP_LATIN_WORD, REGEXP_WORD } from "../helpers/regexp/regexp"
+import {toStr} from "../helpers/string/to_string.js"
+import {clip} from "../helpers/number/clip.js"
+import {toInt} from "../helpers/number/to_integer.js"
+import { MAX_SAFE_INTEGER } from "../helpers/number/const.js"
+import { REGEXP_EXTENDED_ASCII, REGEXP_LATIN_WORD, REGEXP_WORD } from "../helpers/regexp/regexp.js"
 
 /*
 * Truncates `subject` to a new `length` and does not break the words with specified ending.

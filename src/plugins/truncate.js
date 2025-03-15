@@ -1,8 +1,8 @@
-import {toStr} from "../helpers/string/to_string";
-import {substring} from "./substr";
-import {clip} from "../helpers/number/clip"
-import {toInt} from "../helpers/number/to_integer";
-import { MAX_SAFE_INTEGER } from "../helpers/number/const";
+import {toStr} from "../helpers/string/to_string.js";
+import {substring} from "./substr.js";
+import {clip} from "../helpers/number/clip.js"
+import {toInt} from "../helpers/number/to_integer.js";
+import { MAX_SAFE_INTEGER } from "../helpers/number/const.js";
 
 /*
 * Truncates `subject` to a new `length` with specified ending.

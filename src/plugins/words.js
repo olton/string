@@ -1,6 +1,6 @@
-import {REGEXP_EXTENDED_ASCII, REGEXP_LATIN_WORD, REGEXP_WORD} from "../helpers/regexp/regexp"
-import {toStr} from "../helpers/string/to_string"
-import {nvl} from "../helpers/nvl"
+import {REGEXP_EXTENDED_ASCII, REGEXP_LATIN_WORD, REGEXP_WORD} from "../helpers/regexp/regexp.js"
+import {toStr} from "../helpers/string/to_string.js"
+import {nvl} from "../helpers/nvl.js"
 
 /*
 * Split string to words. You can set specified patter to split

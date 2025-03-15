@@ -1,4 +1,4 @@
-import {REGEXP_FLAGS} from "./regexp";
+import {REGEXP_FLAGS} from "./regexp.js";
 
 export const getRegExpFlag = regExp => regExp.toString().match(REGEXP_FLAGS)[0]
 export const addFlagToRegExp = (pattern, flag) => {

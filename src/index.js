@@ -1,4 +1,4 @@
-import {str, Str} from "./core/class";
+import {str, Str} from "./core/class.js";
 
 const version = "__VERSION__"
 const build_time = "__BUILD_TIME__"
@@ -13,3 +13,5 @@ export {
     str,
     Str
 }
+
+export * from "./core/functions.js";

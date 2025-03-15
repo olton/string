@@ -1,4 +1,4 @@
-import {toStr} from "../helpers/string/to_string";
+import {toStr} from "../helpers/string/to_string.js";
 
 export const countSubstr = (s, sub = "") => {
     let _s = toStr(s)

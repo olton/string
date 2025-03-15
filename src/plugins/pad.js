@@ -1,8 +1,8 @@
-import {toStr} from "../helpers/string/to_string"
-import {clip} from "../helpers/number/clip"
-import {toInt} from "../helpers/number/to_integer"
-import { MAX_SAFE_INTEGER } from "../helpers/number/const"
-import {repeat} from "./repeat";
+import {toStr} from "../helpers/string/to_string.js"
+import {clip} from "../helpers/number/clip.js"
+import {toInt} from "../helpers/number/to_integer.js"
+import { MAX_SAFE_INTEGER } from "../helpers/number/const.js"
+import {repeat} from "./repeat.js";
 
 const padBuilder = (pad, len = 0) => {
     const padLength = pad.length

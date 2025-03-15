@@ -1,5 +1,5 @@
-import {toStr} from "../helpers/string/to_string"
-import { trim } from "./trim"
+import {toStr} from "../helpers/string/to_string.js"
+import { trim } from "./trim.js"
 
 export const matches = (s, pattern, flags = '') => {
     let _s = toStr(s)

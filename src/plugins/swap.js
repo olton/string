@@ -1,4 +1,4 @@
-import {toStr} from "../helpers/string/to_string";
+import {toStr} from "../helpers/string/to_string.js";
 
 const _swap = (swapped, char) => {
     const lc = char.toLowerCase()
