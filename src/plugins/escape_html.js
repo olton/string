@@ -1,5 +1,5 @@
-import {toStr} from "../helpers/string/to_string";
-import {REGEXP_HTML_SPECIAL_CHARACTERS} from "../helpers/regexp/regexp";
+import {toStr} from "../helpers/string/to_string.js";
+import {REGEXP_HTML_SPECIAL_CHARACTERS} from "../helpers/regexp/regexp.js";
 
 const escapeCharactersMap = {
     '<': '&lt;',

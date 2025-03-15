@@ -9,8 +9,9 @@
 </head>
 <body>
     <script type="module">
-        import { str } from '../dist/string.js';
+        import { str, camelCase, capitalize } from '../dist/string.js';
         console.log(str(1).lpad('0', 2))
+        console.log(capitalize(camelCase('foo-bar')))
     </script>
 </body>
 </html>

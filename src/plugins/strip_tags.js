@@ -1,5 +1,5 @@
-import {toStr} from "../helpers/string/to_string";
-import { REGEXP_TAGS } from "../helpers/regexp/regexp";
+import {toStr} from "../helpers/string/to_string.js";
+import { REGEXP_TAGS } from "../helpers/regexp/regexp.js";
 
 export const stripTagsAll = s => toStr(s).replace(REGEXP_TAGS, '')
 

@@ -1,5 +1,5 @@
-import {toStr} from "../helpers/string/to_string";
-import {isEmpty} from "./is_empty";
+import {toStr} from "../helpers/string/to_string.js";
+import {isEmpty} from "./is_empty.js";
 
 export const split = (str, sep = undefined, limit = undefined, trim = true) => {
     return toStr(str)

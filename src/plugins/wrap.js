@@ -1,4 +1,4 @@
-import {toStr} from "../helpers/string/to_string";
+import {toStr} from "../helpers/string/to_string.js";
 
 export const wrapTag = (s, tag = "div", attr = {}) => {
     let _str = toStr(s)

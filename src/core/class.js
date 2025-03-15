@@ -1,4 +1,4 @@
-import f from "./functions"
+import * as f from "./functions.js"
 
 class Str {
     constructor(v = "", {mutable = true} = {}) {

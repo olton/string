@@ -1,4 +1,4 @@
-import {digit, whitespace, highSurrogate, lowSurrogate, diacriticalMark, base, generalPunctuationBlock, nonCharacter, dingbatBlock, lowerCaseLetter, upperCaseLetter} from "./const"
+import {digit, whitespace, highSurrogate, lowSurrogate, diacriticalMark, base, generalPunctuationBlock, nonCharacter, dingbatBlock, lowerCaseLetter, upperCaseLetter} from "./const.js"
 
 /**
  * Regular expression to match combining marks

@@ -51,8 +51,9 @@ import {append} from "../plugins/append.js"
 import {prepend} from "../plugins/prepend.js"
 import {stripBoom} from "../plugins/strip_bom.js"
 import {shorten} from "../plugins/shorten.js"
+import {nvl} from "../plugins/nvl.js";
 
-export default {
+export {
     camelCase,
     capitalize,
     chars,
@@ -115,6 +116,7 @@ export default {
     append,
     prepend,
     stripBoom,
-    shorten
+    shorten,
+    nvl,
 }
 
