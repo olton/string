@@ -293,6 +293,10 @@ class Str {
     shorten(l, d){
         return this._result(f.shorten(this.value, l, d))
     }
+
+    nvl(...d){
+        return this._result(f.nvl(this.value, ...d))
+    }
 }
 
 Object.assign(Str, f)
