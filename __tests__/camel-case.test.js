@@ -5,4 +5,7 @@ describe("Test camelCase()", () => {
     it("camelCase('hello-world') should be 'helloWorld'", () => {
         expect(camelCase('hello-world')).toBe('helloWorld')
     })
+    it("camelCase('hello world') should be 'helloWorld'", () => {
+        expect(camelCase('hello world')).toBe('helloWorld')
+    })
 })
