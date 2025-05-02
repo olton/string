@@ -1,11 +1,13 @@
 {
   "name": "@olton/string",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "description": "String is a minimalist JavaScript library for manipulating with strings for node and modern browsers with a comfortable modern API.",
   "main": "dist/string.js",
   "module": "dist/string.js",
+  "types": "types/string.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "types"
   ],
   "type": "module",
   "scripts": {
@@ -13,7 +15,7 @@
     "build": "npm run clean && cross-env MODE=production node build.js",
     "dev": "npm run clean && cross-env MODE=development node build.js",
     "test": "latte --verbose",
-    "pub": "npm publish --access public"
+    "pub": "npm run build && npm publish --access public"
   },
   "repository": {
     "type": "git",
@@ -34,10 +36,10 @@
   ],
   "devDependencies": {
     "@olton/esbuild-plugin-progress": "^0.3.0",
-    "@olton/latte": "^0.2.0",
+    "@olton/latte": "^0.13.0",
     "cross-env": "^7.0.3",
-    "esbuild": "^0.25.1",
+    "esbuild": "^0.25.3",
     "esbuild-plugin-replace": "^1.4.0",
-    "shx": "^0.3.4"
+    "shx": "^0.4.0"
   }
 }
