@@ -17,7 +17,7 @@ const banner = `
 const options = {
     entryPoints: ["src/index.js"],
     bundle: true,
-    minify: true,
+    minify: production,
     sourcemap: false,
     outfile: "dist/string.js",
     format: "esm",
